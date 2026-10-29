@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+models/
+
+# Frontend (Next.js)
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# 비밀키
+.env*

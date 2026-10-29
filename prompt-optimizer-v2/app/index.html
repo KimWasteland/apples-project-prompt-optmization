@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>프롬프트 최적화기</title>
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #ffffff; --text: #1d2129; --muted: #6b7280; --border: #e3e6eb;
+    --accent: #3b5bdb; --accent-text: #ffffff; --ok: #2f9e44; --warn: #e8590c; --code: #f1f3f5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #15171c; --panel: #1e2128; --text: #e7e9ee; --muted: #9aa1ad; --border: #2e323b;
+      --accent: #748ffc; --accent-text: #0b0d12; --ok: #69db7c; --warn: #ffa94d; --code: #262a33; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.6 "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; }
+  header { padding: 20px 24px 8px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: 13px; }
+  main { display: grid; grid-template-columns: minmax(300px, 420px) 1fr; gap: 16px; padding: 16px 24px 24px; }
+  @media (max-width: 860px) { main { grid-template-columns: 1fr; padding: 12px 16px; } header { padding: 16px 16px 4px; } }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  label { display: block; font-size: 13px; color: var(--muted); margin: 12px 0 4px; }
+  textarea { width: 100%; min-height: 180px; resize: vertical; padding: 10px; border-radius: 8px;
+    border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; }
+  select, input[type=number] { width: 100%; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--border);
+    background: var(--bg); color: var(--text); font: inherit; }
+  .row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .toggle { display: flex; align-items: center; gap: 8px; margin-top: 12px; font-size: 14px; }
+  .buttons { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+  button { border: 1px solid var(--border); background: var(--bg); color: var(--text); padding: 8px 14px;
+    border-radius: 8px; font: inherit; cursor: pointer; }
+  button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+  button:disabled { opacity: .5; cursor: default; }
+  .outputs { display: grid; gap: 16px; }
+  .outputs.compare { grid-template-columns: 1fr 1fr; }
+  @media (max-width: 1100px) { .outputs.compare { grid-template-columns: 1fr; } }
+  .out-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .out-head h2 { margin: 0; font-size: 15px; }
+  .meta { color: var(--muted); font-size: 12px; }
+  pre { margin: 0; white-space: pre-wrap; word-break: break-word; background: var(--code); border-radius: 8px;
+    padding: 12px; min-height: 120px; font: 14px/1.65 inherit; font-family: inherit; }
+  .checks { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+  .chip { font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--border); }
+  .chip.ok { color: var(--ok); border-color: var(--ok); }
+  .chip.bad { color: var(--warn); border-color: var(--warn); }
+  .hint { color: var(--muted); font-size: 12px; margin-top: 8px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>프롬프트 최적화기</h1>
+  <p>Qwen2.5-3B-Instruct + LoRA · 역할 명시 · 모호성 해소 · 구조화 · 출력 형식 명시</p>
+</header>
+<main>
+  <section class="panel">
+    <label for="example">테스트셋 예시 불러오기</label>
+    <select id="example"><option value="">— 직접 입력 —</option></select>
+
+    <label for="prompt">원본 프롬프트</label>
+    <textarea id="prompt" maxlength="3000" placeholder="예: 블록체인 설명해줘"></textarea>
+
+    <div class="row">
+      <div><label for="temp">temperature</label><input id="temp" type="number" min="0" max="1.5" step="0.1" value="0"></div>
+      <div><label for="rep">repetition penalty</label><input id="rep" type="number" min="1" max="1.5" step="0.05" value="1.1"></div>
+      <div><label for="maxtok">최대 토큰</label><input id="maxtok" type="number" min="64" max="1536" step="64" value="1024"></div>
+    </div>
+    <div class="hint">temperature 0 = 결정적 생성(greedy)</div>
+
+    <div class="buttons">
+      <button class="primary" id="run">최적화</button>
+      <button id="compare">파인튜닝 전과 비교</button>
+      <button id="clear">지우기</button>
+    </div>
+    <div class="hint">Ctrl + Enter로 실행</div>
+  </section>
+
+  <section class="outputs" id="outputs">
+    <div class="panel" id="box-ft">
+      <div class="out-head"><h2>파인튜닝 모델</h2><span class="meta" id="meta-ft"></span>
+        <button id="copy-ft">복사</button></div>
+      <pre id="out-ft"></pre>
+      <div class="checks" id="checks-ft"></div>
+    </div>
+    <div class="panel" id="box-base" hidden>
+      <div class="out-head"><h2>파인튜닝 전 (base)</h2><span class="meta" id="meta-base"></span>
+        <button id="copy-base">복사</button></div>
+      <pre id="out-base"></pre>
+      <div class="checks" id="checks-base"></div>
+    </div>
+  </section>
+</main>
+<script>
+const $ = (id) => document.getElementById(id);
+const SECTIONS = ["[과제 유형]", "[역할]", "[과제]", "[맥락 및 가정]", "[수행 단계]", "[출력 형식]"];
+const FORMAT_KEYS = ["- 형식:", "- 분량:", "- 톤:", "- 반드시 포함:"];
+
+function check(text) {
+  const items = [];
+  items.push(["첫 줄 [과제 유형]", text.trimStart().startsWith("[과제 유형]")]);
+  let last = -1, ordered = true;
+  for (const s of SECTIONS) {
+    const i = text.search(new RegExp("^" + s.replace(/[[\]]/g, "\\$&"), "m"));
+    items.push([s, i >= 0]);
+    if (i >= 0) { if (i < last) ordered = false; last = i; }
+  }
+  items.push(["섹션 순서", ordered]);
+  const fmt = text.slice(text.indexOf("[출력 형식]"));
+  items.push(["형식·분량·톤·포함", text.includes("[출력 형식]") && FORMAT_KEYS.every(k => fmt.includes(k))]);
+  const ph = (text.match(/\{\{[^}]+\}\}/g) || []).length;
+  return { items, ph };
+}
+
+function renderChecks(el, text) {
+  const { items, ph } = check(text);
+  el.innerHTML = items.map(([n, ok]) => `<span class="chip ${ok ? "ok" : "bad"}">${ok ? "✓" : "✗"} ${n}</span>`).join("")
+    + `<span class="chip">빈칸 {{}} ${ph}개</span>`;
+}
+
+async function stream(target, useAdapter) {
+  const out = $("out-" + target), meta = $("meta-" + target), checks = $("checks-" + target);
+  out.textContent = ""; checks.innerHTML = ""; meta.textContent = "생성 중…";
+  const t0 = performance.now();
+  const res = await fetch("/generate", {
+    method: "POST", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      prompt: $("prompt").value, use_adapter: useAdapter,
+      temperature: +$("temp").value, repetition_penalty: +$("rep").value, max_new_tokens: +$("maxtok").value,
+    }),
+  });
+  if (!res.ok) { meta.textContent = "오류: " + await res.text(); return; }
+  const reader = res.body.getReader(), dec = new TextDecoder();
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    out.textContent += dec.decode(value, { stream: true });
+  }
+  meta.textContent = `${((performance.now() - t0) / 1000).toFixed(1)}초 · ${out.textContent.length}자`;
+  renderChecks(checks, out.textContent);
+}
+
+function setBusy(b) { ["run", "compare", "clear"].forEach(id => $(id).disabled = b); }
+
+async function run(compare) {
+  if (!$("prompt").value.trim()) { $("prompt").focus(); return; }
+  setBusy(true);
+  $("box-base").hidden = !compare;
+  $("outputs").classList.toggle("compare", compare);
+  try {
+    await stream("ft", true);
+    if (compare) await stream("base", false);
+  } catch (e) {
+    $("meta-ft").textContent = "오류: 서버가 실행 중인지 확인하세요";
+  } finally { setBusy(false); }
+}
+
+$("run").onclick = () => run(false);
+$("compare").onclick = () => run(true);
+$("clear").onclick = () => { $("prompt").value = ""; ["ft", "base"].forEach(t => { $("out-" + t).textContent = ""; $("checks-" + t).innerHTML = ""; $("meta-" + t).textContent = ""; }); };
+$("prompt").addEventListener("keydown", e => { if (e.key === "Enter" && e.ctrlKey) run(false); });
+["ft", "base"].forEach(t => $("copy-" + t).onclick = () => navigator.clipboard.writeText($("out-" + t).textContent));
+$("example").onchange = (e) => { if (e.target.value) $("prompt").value = e.target.value; };
+
+fetch("/examples").then(r => r.json()).then(list => {
+  for (const text of list) {
+    const o = document.createElement("option");
+    o.value = text; o.textContent = text.replace(/\s+/g, " ").slice(0, 60) + (text.length > 60 ? "…" : "");
+    $("example").appendChild(o);
+  }
+});
+</script>
+</body>
+</html>
