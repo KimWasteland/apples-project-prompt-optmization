@@ -1,0 +1,7 @@
+torch
+transformers>=5.0
+peft>=0.21
+accelerate
+fastapi
+uvicorn
+# 학습(train.py)에만 필요: unsloth trl datasets

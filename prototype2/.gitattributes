@@ -1,2 +1,0 @@
-# LoRA 가중치(약 115MB)는 GitHub 단일 파일 한도(100MB)를 넘어서 Git LFS로 관리
-*.safetensors filter=lfs diff=lfs merge=lfs -text
