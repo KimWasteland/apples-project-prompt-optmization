@@ -90,11 +90,42 @@ python app/server.py     # http://localhost:7860
 ```
 
 ## 학습
+
+### 학습 설정
+| 항목 | 값 |
+| :--- | :--- |
+| 베이스 모델 | Qwen2.5-3B-Instruct, 4bit 양자화 (Unsloth) |
+| LoRA | r=16, alpha=32, dropout 0, q/k/v/o/gate/up/down 전체 |
+| 배치 | batch 2 × grad_accum 8 = 유효 16 |
+| 학습률 | 2e-4, cosine, warmup 3% |
+| epoch | 3 (174 step) |
+| 기타 | max_seq_length 2048, adamw_8bit, bf16, assistant 응답 토큰에만 loss 계산 |
+| 데이터 분할 | train 923 / val 54 / test 54 (task × level별 층화, seed 42) |
+
 ```bash
 pip install unsloth trl datasets
 python train.py --max_steps 5     # 스모크 테스트
 python train.py                   # 본 학습 (3 epoch)
+python train.py --resume outputs/qwen2.5-3b-promptopt/checkpoint-58   # 중단된 학습 이어서
 python inference.py "질문" --adapter outputs/qwen2.5-3b-promptopt/lora_adapter
 ```
-4bit QLoRA, r=16, alpha=32, 7개 projection 전체, assistant 응답 토큰에만 loss. 12GB GPU 기준 약 13분.
-val loss 1.229 (step 20) → 0.958 (step 174).
+12GB GPU 기준 약 13분 (745초).
+
+### 학습 과정
+- 처음 설정(batch 4 × grad_accum 4)으로 학습하던 중 92 step에서 GPU 메모리 부족(OOM)이 발생했습니다.
+- 유효 배치 16은 유지하면서 batch 2 × grad_accum 8로 조정해 학습을 완료했습니다.
+- VRAM이 더 부족하면 `--batch_size 1 --grad_accum 16`으로 줄이세요.
+
+### Loss 추이
+| step | 20 | 40 | 60 | 80 | 100 | 120 | 140 | 160 | 174 |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| eval loss | 1.229 | 1.080 | 1.021 | 0.993 | 0.970 | 0.956 | 0.965 | 0.958 | 0.958 |
+
+- train loss는 2.10(step 5)에서 약 0.76(step 170)으로 내려갔습니다.
+- eval loss는 120 step 이후 0.96 근처에서 수렴했고, 다시 오르지 않아 과적합 징후는 없습니다.
+- v1(라벨 JSON 약 50토큰)과 달리 v2는 긴 프롬프트 전체를 생성하므로 loss의 절대값이 높습니다. 두 버전의 loss를 직접 비교하면 안 됩니다.
+
+### 알려진 한계
+- 입력에 없는 요구 사항을 지어내는 경우가 있습니다.
+- 역할이 과제와 어긋나는 경우가 있습니다 (예: 고등학생 대상인데 중학교 교사).
+- L3(이미 구체적인 프롬프트) 데이터가 15%로 적고, 수행 단계가 3~4개로 쏠려 있습니다.
