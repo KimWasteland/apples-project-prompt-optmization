@@ -36,6 +36,8 @@ class PromptOptimizer:
         dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
         model = AutoModelForCausalLM.from_pretrained(base, dtype=dtype, device_map="auto")
         self.model = PeftModel.from_pretrained(model, adapter).eval()
+        # 멀티스레딩 환경에서 공유 자원에 대한 동시 접근 통제
+        # 웹서버 환경에서 여러 스레드가 동시에 생성함수를 호출하면 OOM 발생하는 걸 방지한다
         self.lock = threading.Lock()  # GPU 하나 + 어댑터 on/off 상태 공유: 생성은 한 번에 하나씩
 
     def _generate_kwargs(self, prompt, temperature, repetition_penalty, max_new_tokens):
@@ -43,12 +45,18 @@ class PromptOptimizer:
                                            return_tensors="pt", return_dict=True).to(self.model.device)
         kw = dict(**enc, max_new_tokens=max_new_tokens, repetition_penalty=repetition_penalty,
                   do_sample=temperature > 0)
+        # top-p 샘플링
         if temperature > 0:
             kw.update(temperature=temperature, top_p=0.9)
+        # 디코딩 인자 설정을 딕셔너리로 반환함
         return kw
 
-    def _run(self, kw, use_adapter):
+    # 디코딩
+    def _run(self, kw, use_adapter): #kw은 파라미터 설정
         # use_adapter=False: 어댑터를 끈 베이스 모델 (파인튜닝 전과 비교용)
+        # 어댑터를 사용한다면 contextlib.nullcontext()를 생성하고, 
+        # 그렇지 않다면 self.model.disable_adapter()을 통해 어댑터를 끈다.
+        # nullcontext()는 with문 내부에서 아무것도 하지않고 통과하는 역할을 한다.
         ctx = contextlib.nullcontext() if use_adapter else self.model.disable_adapter()
         with self.lock, ctx, self.torch.inference_mode():
             return self.model.generate(**kw)
@@ -56,7 +64,9 @@ class PromptOptimizer:
     def __call__(self, prompt, temperature=0.0, repetition_penalty=1.1, max_new_tokens=1024, use_adapter=True):
         """원본 프롬프트 -> 개선된 프롬프트 (문자열)."""
         kw = self._generate_kwargs(prompt, temperature, repetition_penalty, max_new_tokens)
+        # 파라미터 설정은 kw로 들어간다
         out = self._run(kw, use_adapter)
+        # 모델이 새롭게 출력하는 부분만 뱉어내도록 설정한다. 
         return self.tok.decode(out[0, kw["input_ids"].shape[1]:], skip_special_tokens=True)
 
     def stream(self, prompt, temperature=0.0, repetition_penalty=1.1, max_new_tokens=1024, use_adapter=True):
@@ -64,6 +74,8 @@ class PromptOptimizer:
         from transformers import TextIteratorStreamer
         streamer = TextIteratorStreamer(self.tok, skip_prompt=True, skip_special_tokens=True)
         kw = self._generate_kwargs(prompt, temperature, repetition_penalty, max_new_tokens)
+        # generate함수는 생성이외의 작업을 하지 못한다. 따라서 띄워주는 streamer와 생성해주는 threader를 따로 두어야 한다.
+        # daemon: 메인프로그램이 꺼지면 백그라운드 스레드도 거진다.
         threading.Thread(target=self._run, args=({**kw, "streamer": streamer}, use_adapter), daemon=True).start()
         return streamer
 
@@ -79,8 +91,9 @@ if __name__ == "__main__":
 
     def show(p):
         print("=" * 70)
+        # streamer 통에서 하나씩 생성함. 내부에서 백그라운드 스레드는 계속해서 디코딩
         for piece in opt.stream(p):
-            print(piece, end="", flush=True)
+            print(piece, end="", flush=True) # 버퍼에 쌓아두지 않고 그대로 출력
         print()
 
     if a.file:
