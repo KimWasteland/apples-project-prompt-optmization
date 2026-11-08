@@ -9,6 +9,8 @@
 import os
 
 os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")  # 12GB VRAM 단편화 완화
+# 12GB ram은 메모리 공간 자체가 작으므로 단편화 현상이 심함 > 메모리 세그먼트를 유연하게 늘릴 수 있는 구조로 변경
+
 
 import unsloth  # noqa: F401  # transformers/trl보다 먼저 import해야 패치가 적용됨
 from unsloth import FastLanguageModel
@@ -24,7 +26,7 @@ from trl import SFTConfig, SFTTrainer
 
 from inference import build_messages
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent #resolve는 절대 경로, parent는 부모 폴더 경로
 DATA = ROOT / "data" / "dataset.jsonl"
 
 
@@ -49,6 +51,8 @@ def load_split(name):
     rows = [json.loads(line) for line in open(DATA, encoding="utf-8")]
     return [r for r in rows if r["split"] == name]
 
+# [{"role": "system", "content": SYSTEM_PROMPT}, {"role": "user", "content": f"<prompt>\n{prompt.strip()}\n</prompt>"}]
+# 뒤 [{"role": "assistant", "content": r["output"]}]은 아웃풋이다.
 
 def to_messages(r):
     return build_messages(r["input"]) + [{"role": "assistant", "content": r["output"]}]
@@ -72,7 +76,7 @@ def main():
         target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
         bias="none",
         use_gradient_checkpointing="unsloth",
-        random_state=args.seed,
+        random_state=args.seed, # lora의 어댑터 가중치초기화
     )
 
     def to_text(split):
@@ -124,7 +128,7 @@ def main():
         trainer,
         instruction_part="<|im_start|>user\n",
         response_part="<|im_start|>assistant\n",
-    )
+    ) # 콜레이터 대체
 
     stats = trainer.train(resume_from_checkpoint=args.resume)
     print(stats)
@@ -141,7 +145,7 @@ def main():
         for r in load_split("test")[:3]:
             inputs = tokenizer.apply_chat_template(
                 build_messages(r["input"]), add_generation_prompt=True, return_tensors="pt", return_dict=True
-            ).to(model.device)
+            ).to(model.device) # 추론 상황이므로 add_generation_prompt는 킨다
             gen = model.generate(**inputs, max_new_tokens=1024, do_sample=False)
             pred = tokenizer.decode(gen[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
             f.write(f"### INPUT\n{r['input']}\n\n### PRED\n{pred}\n\n### GOLD\n{r['output']}\n\n{'=' * 60}\n\n")

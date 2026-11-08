@@ -1,0 +1,512 @@
+{"id": "v4n_0001", "source": "v4new", "task": "설명", "level": "L1", "input": "엑셀 vlookup 뭐임", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0002", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "자소서 첫 문장 어케 써", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0003", "source": "v4new", "task": "요약", "level": "L1", "input": "냉장고 안에 뭐 있음", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0004", "source": "v4new", "task": "기타", "level": "L1", "input": "없어 보여?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0005", "source": "v4new", "task": "추천", "level": "L1", "input": "저녁에 뭐 먹지?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0006", "source": "v4new", "task": "기획", "level": "L1", "input": "일요일에 뭐해?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0007", "source": "v4new", "task": "설명", "level": "L1", "input": "스마트폰 배터리 절약법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0008", "source": "v4new", "task": "추천", "level": "L1", "input": "영화 볼 거 추천 좀", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0009", "source": "v4new", "task": "기획", "level": "L1", "input": "이불 빨래 언제 함?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0010", "source": "v4new", "task": "설명", "level": "L1", "input": "라면 맛있게 끓이는 법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0011", "source": "v4new", "task": "추천", "level": "L1", "input": "요즘 핫한 드라마?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0012", "source": "v4new", "task": "추천", "level": "L1", "input": "친구 생일 선물 뭐가 좋을까", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0013", "source": "v4new", "task": "기획", "level": "L1", "input": "퇴근 후 뭐하지?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0014", "source": "v4new", "task": "기타", "level": "L1", "input": "지금 몇 시임?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0015", "source": "v4new", "task": "설명", "level": "L1", "input": "기후 변화 단어 뜻", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0016", "source": "v4new", "task": "기획", "level": "L1", "input": "새해 계획 어떻게 세워?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0017", "source": "v4new", "task": "추천", "level": "L1", "input": "책 한 권 추천해 줘", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0018", "source": "v4new", "task": "기타", "level": "L1", "input": "오늘 날씨 어떰?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0019", "source": "v4new", "task": "추천", "level": "L1", "input": "서울 맛집 알려줘", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0020", "source": "v4new", "task": "추천", "level": "L1", "input": "등산 가기 좋은 곳?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0021", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "아이디어 필요해", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0022", "source": "v4new", "task": "설명", "level": "L1", "input": "영어 스피킹 잘하는 법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0023", "source": "v4new", "task": "설명", "level": "L1", "input": "카페인 줄이기 방법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0024", "source": "v4new", "task": "설명", "level": "L1", "input": "운동화 세탁 방법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0025", "source": "v4new", "task": "추천", "level": "L1", "input": "친구랑 할 만한 게임", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0026", "source": "v4new", "task": "비교", "level": "L1", "input": "오늘 뭐 입지?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0027", "source": "v4new", "task": "추천", "level": "L1", "input": "인테리어 팁 줘봐", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0028", "source": "v4new", "task": "설명", "level": "L1", "input": "고양이 키우기 팁", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0029", "source": "v4new", "task": "기타", "level": "L1", "input": "이직 고민 중이야", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0030", "source": "v4new", "task": "추천", "level": "L1", "input": "온라인 강의 추천", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0031", "source": "v4new", "task": "설명", "level": "L1", "input": "독서 습관 만드는 법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0032", "source": "v4new", "task": "추천", "level": "L1", "input": "코디 조합 추천", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0033", "source": "v4new", "task": "설명", "level": "L1", "input": "봄 패션 트렌드 알려줘", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0034", "source": "v4new", "task": "설명", "level": "L1", "input": "쉽게 집 정리하는 방법", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0035", "source": "v4new", "task": "설명", "level": "L1", "input": "식비 절약 방법?", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0036", "source": "v4new", "task": "기획", "level": "L1", "input": "캠핑 갈 때 필요한 것", "split": "train", "topic": "일상·생활 팁"}
+{"id": "v4n_0037", "source": "v4new", "task": "설명", "level": "L1", "input": "파스타 레시피 알려줘", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0038", "source": "v4new", "task": "설명", "level": "L1", "input": "김치찌개 어떻게 끓여?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0039", "source": "v4new", "task": "추천", "level": "L1", "input": "비건 요리 있나?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0040", "source": "v4new", "task": "설명", "level": "L1", "input": "초콜릿 케이크 만들기", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0041", "source": "v4new", "task": "비교", "level": "L1", "input": "한식 vs 양식 뭐가 좋아?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0042", "source": "v4new", "task": "추천", "level": "L1", "input": "버터 대체할 재료 좀", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0043", "source": "v4new", "task": "비교", "level": "L1", "input": "스시랑 딤섬 중 뭐 먹을까?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0044", "source": "v4new", "task": "설명", "level": "L1", "input": "와인 페어링 기본", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0045", "source": "v4new", "task": "추천", "level": "L1", "input": "이탈리안 레스토랑 추천해줘", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0046", "source": "v4new", "task": "추천", "level": "L1", "input": "간단한 아침 메뉴", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0047", "source": "v4new", "task": "추천", "level": "L1", "input": "글루텐 프리 레시피", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0048", "source": "v4new", "task": "추천", "level": "L1", "input": "매운 음식 좋아하는 사람에게?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0049", "source": "v4new", "task": "설명", "level": "L1", "input": "오븐 없이 빵 만들기", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0050", "source": "v4new", "task": "설명", "level": "L1", "input": "계란말이 레시피", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0051", "source": "v4new", "task": "기획", "level": "L1", "input": "일주일 치 식단 계획", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0052", "source": "v4new", "task": "추천", "level": "L1", "input": "칼로리 낮은 저녁 메뉴", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0053", "source": "v4new", "task": "설명", "level": "L1", "input": "미국 음식 특징은?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0054", "source": "v4new", "task": "추천", "level": "L1", "input": "디톡스 스무디 추천", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0055", "source": "v4new", "task": "추천", "level": "L1", "input": "커피랑 잘 어울리는 디저트", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0056", "source": "v4new", "task": "설명", "level": "L1", "input": "바베큐 소스 만들기", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0057", "source": "v4new", "task": "설명", "level": "L1", "input": "유명한 프랑스 디저트", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0058", "source": "v4new", "task": "추천", "level": "L1", "input": "김밥이랑 어울리는 국", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0059", "source": "v4new", "task": "추천", "level": "L1", "input": "다이어트 동안 먹을 수 있는 과일?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0060", "source": "v4new", "task": "추천", "level": "L1", "input": "태국 음식 중 추천해줄래?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0061", "source": "v4new", "task": "설명", "level": "L1", "input": "김치 보관 방법", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0062", "source": "v4new", "task": "설명", "level": "L1", "input": "간단한 샌드위치 레시피", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0063", "source": "v4new", "task": "비교", "level": "L1", "input": "치즈 종류별 맛 비교", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0064", "source": "v4new", "task": "추천", "level": "L1", "input": "해장에 좋은 음식", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0065", "source": "v4new", "task": "설명", "level": "L1", "input": "커리 만들 때 팁", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0066", "source": "v4new", "task": "추천", "level": "L1", "input": "길거리 음식 추천", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0067", "source": "v4new", "task": "추천", "level": "L1", "input": "아이들 위한 건강한 스낵", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0068", "source": "v4new", "task": "설명", "level": "L1", "input": "아보카도 요리법", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0069", "source": "v4new", "task": "설명", "level": "L1", "input": "비건이란?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0070", "source": "v4new", "task": "설명", "level": "L1", "input": "양파 다듬는 법", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0071", "source": "v4new", "task": "설명", "level": "L1", "input": "냉동고에 뭐 넣으면 안 돼?", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0072", "source": "v4new", "task": "추천", "level": "L1", "input": "과일 샐러드 드레싱 추천", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0073", "source": "v4new", "task": "설명", "level": "L1", "input": "냉장고 정리 꿀팁", "split": "train", "topic": "요리·음식"}
+{"id": "v4n_0074", "source": "v4new", "task": "추천", "level": "L1", "input": "유산소 운동 뭐가 좋아?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0075", "source": "v4new", "task": "설명", "level": "L1", "input": "탄수화물 줄이면 효과 있음?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0076", "source": "v4new", "task": "추천", "level": "L1", "input": "건강한 간식 추천좀", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0077", "source": "v4new", "task": "설명", "level": "L1", "input": "플랭크 제대로 하는 방법?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0078", "source": "v4new", "task": "추천", "level": "L1", "input": "체지방 줄이려면?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0079", "source": "v4new", "task": "추천", "level": "L1", "input": "식단 관리 어플 추천", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0080", "source": "v4new", "task": "설명", "level": "L1", "input": "단백질 얼마나 먹어야 해?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0081", "source": "v4new", "task": "설명", "level": "L1", "input": "스쿼트 효과 언제 나타나?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0082", "source": "v4new", "task": "설명", "level": "L1", "input": "다이어트 중인데, 치팅데이 필요?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0083", "source": "v4new", "task": "비교", "level": "L1", "input": "아침 운동이 좋아? 저녁 운동?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0084", "source": "v4new", "task": "설명", "level": "L1", "input": "자전거 타기 칼로리 소모", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0085", "source": "v4new", "task": "설명", "level": "L1", "input": "비건 다이어트 가능한가?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0086", "source": "v4new", "task": "추천", "level": "L1", "input": "식욕 억제하는 방법 알려줘", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0087", "source": "v4new", "task": "설명", "level": "L1", "input": "단백질쉐이크 언제 마셔?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0088", "source": "v4new", "task": "설명", "level": "L1", "input": "식단 일기 써야 함?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0089", "source": "v4new", "task": "설명", "level": "L1", "input": "HIIT 장점이 뭐야?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0090", "source": "v4new", "task": "추천", "level": "L1", "input": "탄수화물 대체 식품?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0091", "source": "v4new", "task": "기획", "level": "L1", "input": "헬스 초보 루틴 어케 짜?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0092", "source": "v4new", "task": "설명", "level": "L1", "input": "아침 공복 운동 효과 있나?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0093", "source": "v4new", "task": "기획", "level": "L1", "input": "식단표 어떻게 만들어?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0094", "source": "v4new", "task": "비교", "level": "L1", "input": "러닝머신 vs 실외 달리기", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0095", "source": "v4new", "task": "추천", "level": "L1", "input": "체중 감량 비법 공유해줘", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0096", "source": "v4new", "task": "설명", "level": "L1", "input": "비타민D 어디서 얻어?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0097", "source": "v4new", "task": "추천", "level": "L1", "input": "체력 기르는 방법?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0098", "source": "v4new", "task": "기타", "level": "L1", "input": "다이어트 중 포기하고 싶어", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0099", "source": "v4new", "task": "추천", "level": "L1", "input": "저녁에 먹어도 되는 음식?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0100", "source": "v4new", "task": "비교", "level": "L1", "input": "헬스장 가야할까 집에서?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0101", "source": "v4new", "task": "추천", "level": "L1", "input": "스트레스 해소 운동?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0102", "source": "v4new", "task": "설명", "level": "L1", "input": "식사일기 필요 있어?", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0103", "source": "v4new", "task": "추천", "level": "L1", "input": "체지방계 추천해봐", "split": "train", "topic": "건강·운동·다이어트"}
+{"id": "v4n_0104", "source": "v4new", "task": "설명", "level": "L1", "input": "재테크 어떻게 시작해?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0105", "source": "v4new", "task": "추천", "level": "L1", "input": "보험 뭐 들어야 돼?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0106", "source": "v4new", "task": "추천", "level": "L1", "input": "돈 모으는 팁 알려줘", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0107", "source": "v4new", "task": "설명", "level": "L1", "input": "비상금 어떻게 관리하죠?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0108", "source": "v4new", "task": "설명", "level": "L1", "input": "보험의 중요성?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0109", "source": "v4new", "task": "비교", "level": "L1", "input": "P2P 투자 괜찮음?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0110", "source": "v4new", "task": "설명", "level": "L1", "input": "퇴직연금 잘 모르겠어", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0111", "source": "v4new", "task": "설명", "level": "L1", "input": "월급관리법 빠르게", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0112", "source": "v4new", "task": "기타", "level": "L1", "input": "돈 많이 써서 걱정이야", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0113", "source": "v4new", "task": "비교", "level": "L1", "input": "부동산 투자 어때?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0114", "source": "v4new", "task": "설명", "level": "L1", "input": "펀드 투자 장단점?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0115", "source": "v4new", "task": "기획", "level": "L1", "input": "연금보험 가입할까?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0116", "source": "v4new", "task": "비교", "level": "L1", "input": "여행자 보험 필요해?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0117", "source": "v4new", "task": "기획", "level": "L1", "input": "아이 학자금 준비 어떻게?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0118", "source": "v4new", "task": "기타", "level": "L1", "input": "돈 쓸 때 제일 중요한 건?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0119", "source": "v4new", "task": "설명", "level": "L1", "input": "보험료 계산 방법", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0120", "source": "v4new", "task": "기타", "level": "L1", "input": "가장 저렴한 보험 찾기", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0121", "source": "v4new", "task": "설명", "level": "L1", "input": "재테크 트렌드가 뭐야?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0122", "source": "v4new", "task": "기획", "level": "L1", "input": "은퇴 후 자금 계획?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0123", "source": "v4new", "task": "기타", "level": "L1", "input": "재무 상담 필요할까요?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0124", "source": "v4new", "task": "비교", "level": "L1", "input": "장기 보험 VS 단기 보험", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0125", "source": "v4new", "task": "설명", "level": "L1", "input": "주택청약 어떻게 넣어?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0126", "source": "v4new", "task": "추천", "level": "L1", "input": "위험 부담 적은 투자?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0127", "source": "v4new", "task": "설명", "level": "L1", "input": "신용 점수 올리는 법", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0128", "source": "v4new", "task": "비교", "level": "L1", "input": "비트코인 투자 어떰?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0129", "source": "v4new", "task": "기획", "level": "L1", "input": "잉여자금 활용법", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0130", "source": "v4new", "task": "추천", "level": "L1", "input": "소득세 절약 팁!", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0131", "source": "v4new", "task": "기타", "level": "L1", "input": "재테크 성공사례 있어?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0132", "source": "v4new", "task": "비교", "level": "L1", "input": "ETF랑 종합주가지수차이?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0133", "source": "v4new", "task": "기획", "level": "L1", "input": "노후 준비 언제부터?", "split": "train", "topic": "돈·재테크·보험"}
+{"id": "v4n_0134", "source": "v4new", "task": "설명", "level": "L1", "input": "부동산 세금 혜택 있나요?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0135", "source": "v4new", "task": "비교", "level": "L1", "input": "법과 제도 차이점 뭔데?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0136", "source": "v4new", "task": "설명", "level": "L1", "input": "소득세 신고 언제까지임?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0137", "source": "v4new", "task": "추천", "level": "L1", "input": "공무원 시험 준비 팁", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0138", "source": "v4new", "task": "설명", "level": "L1", "input": "주식 양도소득세 계산법", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0139", "source": "v4new", "task": "설명", "level": "L1", "input": "세금 감면이 되는 경우?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0140", "source": "v4new", "task": "요약", "level": "L1", "input": "노동법 주요 내용 요약 좀", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0141", "source": "v4new", "task": "설명", "level": "L1", "input": "국세청 홈택스 비번 초기화", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0142", "source": "v4new", "task": "설명", "level": "L1", "input": "주택청약 1순위 조건 궁금", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0143", "source": "v4new", "task": "추천", "level": "L1", "input": "국제 법률 자문 어디서?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0144", "source": "v4new", "task": "설명", "level": "L1", "input": "이중과세 방지 조약이 뭐야?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0145", "source": "v4new", "task": "추천", "level": "L1", "input": "근로계약서 작성 시 주의점", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0146", "source": "v4new", "task": "기타", "level": "L1", "input": "상속세 계산기 링크 줘", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0147", "source": "v4new", "task": "설명", "level": "L1", "input": "지방세 미납 조회 어디서?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0148", "source": "v4new", "task": "설명", "level": "L1", "input": "연말정산 서류 준비물?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0149", "source": "v4new", "task": "추천", "level": "L1", "input": "계약서 검토해 줄 변호사", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0150", "source": "v4new", "task": "설명", "level": "L1", "input": "상가 임대차 보호법 설명", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0151", "source": "v4new", "task": "설명", "level": "L1", "input": "퇴직금 계산 방법 가르쳐줘", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0152", "source": "v4new", "task": "기타", "level": "L1", "input": "증여세 피하는 법 있어?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0153", "source": "v4new", "task": "비교", "level": "L1", "input": "법률 자문 회사 비교해줘", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0154", "source": "v4new", "task": "요약", "level": "L1", "input": "근로기준법 주요 내용", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0155", "source": "v4new", "task": "설명", "level": "L1", "input": "지방세 납부 기한 언제임?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0156", "source": "v4new", "task": "추천", "level": "L1", "input": "자영업자 세금 절세 팁", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0157", "source": "v4new", "task": "설명", "level": "L1", "input": "임대료 인상 최대 몇 퍼임?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0158", "source": "v4new", "task": "기타", "level": "L1", "input": "외국인 노동법 상담 가능해?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0159", "source": "v4new", "task": "정보제공", "level": "L1", "input": "자동차세 할인 정보", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0160", "source": "v4new", "task": "추천", "level": "L1", "input": "법률 용어 해설 사이트", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0161", "source": "v4new", "task": "설명", "level": "L1", "input": "사업자 등록 절차 알려줘", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0162", "source": "v4new", "task": "설명", "level": "L1", "input": "청소년 보호법 간단 설명", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0163", "source": "v4new", "task": "설명", "level": "L1", "input": "부당해고 구제 방법?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0164", "source": "v4new", "task": "설명", "level": "L1", "input": "부가가치세 신고법", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0165", "source": "v4new", "task": "설명", "level": "L1", "input": "공제 가능한 세금 종류", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0166", "source": "v4new", "task": "비교", "level": "L1", "input": "은행과 증권사 차이?", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0167", "source": "v4new", "task": "설명", "level": "L1", "input": "노사 협의회 구성 방법", "split": "train", "topic": "법·행정·세금"}
+{"id": "v4n_0168", "source": "v4new", "task": "기타", "level": "L1", "input": "짝녀한테 고백할까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0169", "source": "v4new", "task": "기타", "level": "L1", "input": "소개팅 후 문자 뭐라고 보냄?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0170", "source": "v4new", "task": "추천", "level": "L1", "input": "친구와 다퉜어. 화해 방법?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0171", "source": "v4new", "task": "추천", "level": "L1", "input": "가족 여행 어디로 갈까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0172", "source": "v4new", "task": "기타", "level": "L1", "input": "헤어지고 싶은데 어떻게 말해?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0173", "source": "v4new", "task": "기타", "level": "L1", "input": "장거리 연애 힘드네", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0174", "source": "v4new", "task": "추천", "level": "L1", "input": "남친 생일선물 아이디어", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0175", "source": "v4new", "task": "설명", "level": "L1", "input": "연애 초반 주의할 점", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0176", "source": "v4new", "task": "기타", "level": "L1", "input": "형제랑 싸우고 어색해요", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0177", "source": "v4new", "task": "기타", "level": "L1", "input": "이혼하고 싶어요", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0178", "source": "v4new", "task": "추천", "level": "L1", "input": "첫 데이트 어디가 좋을까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0179", "source": "v4new", "task": "설명", "level": "L1", "input": "여친이 서운해할 때 대처법", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0180", "source": "v4new", "task": "추천", "level": "L1", "input": "소개팅 팁 좀 줘", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0181", "source": "v4new", "task": "기타", "level": "L1", "input": "부모님 반대하는 연애", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0182", "source": "v4new", "task": "기타", "level": "L1", "input": "남사친이랑 영화 봐도 될까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0183", "source": "v4new", "task": "기타", "level": "L1", "input": "썸남한테 연락 빈도 어느 정도?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0184", "source": "v4new", "task": "비교", "level": "L1", "input": "친구랑 같이 살기 어때?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0185", "source": "v4new", "task": "기타", "level": "L1", "input": "결혼식 축사 어떻게 써?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0186", "source": "v4new", "task": "설명", "level": "L1", "input": "사랑이란 뭘까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0187", "source": "v4new", "task": "기획", "level": "L1", "input": "여친이랑 여행 계획해줘", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0188", "source": "v4new", "task": "비교", "level": "L1", "input": "우정이랑 사랑의 차이는?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0189", "source": "v4new", "task": "추천", "level": "L1", "input": "가족끼리 할 취미활동 추천", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0190", "source": "v4new", "task": "기획", "level": "L1", "input": "친구 생일 파티 기획", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0191", "source": "v4new", "task": "설명", "level": "L1", "input": "장모님한테 첫인사 준비", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0192", "source": "v4new", "task": "기타", "level": "L1", "input": "여자친구 화난 것 같아", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0193", "source": "v4new", "task": "기타", "level": "L1", "input": "썸녀랑 커플이 될 가능성?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0194", "source": "v4new", "task": "기획", "level": "L1", "input": "가족 모임 주최해", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0195", "source": "v4new", "task": "기타", "level": "L1", "input": "오래된 친구와의 거리감", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0196", "source": "v4new", "task": "설명", "level": "L1", "input": "남편과의 대화 주제가 없어", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0197", "source": "v4new", "task": "설명", "level": "L1", "input": "어머님께 편지 쓰는 법", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0198", "source": "v4new", "task": "기타", "level": "L1", "input": "연애 고민 상담", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0199", "source": "v4new", "task": "기타", "level": "L1", "input": "거짓말 한 친구 용서할까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0200", "source": "v4new", "task": "추천", "level": "L1", "input": "사랑에 빠지는 방법", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0201", "source": "v4new", "task": "추천", "level": "L1", "input": "동생과 유대감 쌓기", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0202", "source": "v4new", "task": "기타", "level": "L1", "input": "친구에게 서운한 점 말할까?", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0203", "source": "v4new", "task": "기타", "level": "L1", "input": "장애물 많은 연애", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0204", "source": "v4new", "task": "설명", "level": "L1", "input": "시댁과의 갈등 해결방안", "split": "train", "topic": "연애·인간관계·가족"}
+{"id": "v4n_0205", "source": "v4new", "task": "설명", "level": "L1", "input": "애기 낮잠 언제까지 자?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0206", "source": "v4new", "task": "기획", "level": "L1", "input": "유치원 상담 때 뭐 물어봐?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0207", "source": "v4new", "task": "설명", "level": "L1", "input": "칭찬 스티커 효과?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0208", "source": "v4new", "task": "추천", "level": "L1", "input": "아기 이유식 레시피 있어?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0209", "source": "v4new", "task": "비교", "level": "L1", "input": "영어 유치원 어때요?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0210", "source": "v4new", "task": "추천", "level": "L1", "input": "둘째 육아 꿀팁", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0211", "source": "v4new", "task": "추천", "level": "L1", "input": "태교 음악 뭐 들어?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0212", "source": "v4new", "task": "기획", "level": "L1", "input": "아침에 아이들 깨우기 방법", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0213", "source": "v4new", "task": "설명", "level": "L1", "input": "아기 예방접종 필요한가?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0214", "source": "v4new", "task": "추천", "level": "L1", "input": "어린이 교육 앱 추천", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0215", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "자녀와 대화 주제", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0216", "source": "v4new", "task": "기획", "level": "L1", "input": "아빠랑 놀아주는 시간 어떻게?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0217", "source": "v4new", "task": "설명", "level": "L1", "input": "기저귀 발진 해결법?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0218", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "아기 첫 걸음 응원 문구", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0219", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "특별한 점심 도시락 아이디어", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0220", "source": "v4new", "task": "설명", "level": "L1", "input": "다자녀 혜택 뭐 있어요?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0221", "source": "v4new", "task": "추천", "level": "L1", "input": "놀이방 놀이 추천", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0222", "source": "v4new", "task": "추천", "level": "L1", "input": "아이들 간식 조언", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0223", "source": "v4new", "task": "추천", "level": "L1", "input": "알파벳 공부 가장 좋은 방법?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0224", "source": "v4new", "task": "추천", "level": "L1", "input": "애기랑 할 수 있는 실내 놀이?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0225", "source": "v4new", "task": "기타", "level": "L1", "input": "주사 맞을 때 안 아프게 하는 법?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0226", "source": "v4new", "task": "설명", "level": "L1", "input": "아이와 대화할 때 중요한 것?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0227", "source": "v4new", "task": "기획", "level": "L1", "input": "유치원 입학 준비물 리스트", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0228", "source": "v4new", "task": "추천", "level": "L1", "input": "학습지 추천해줄래?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0229", "source": "v4new", "task": "기획", "level": "L1", "input": "아이 낮잠 시간 조절하기", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0230", "source": "v4new", "task": "설명", "level": "L1", "input": "영어 공부 언제 시작해?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0231", "source": "v4new", "task": "설명", "level": "L1", "input": "홈스쿨링 필요한가요?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0232", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "아이 방 꾸미기 아이디어", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0233", "source": "v4new", "task": "설명", "level": "L1", "input": "식사 예절 언제부터 가르쳐?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0234", "source": "v4new", "task": "추천", "level": "L1", "input": "아기 침대 어떤 게 좋아?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0235", "source": "v4new", "task": "기획", "level": "L1", "input": "신생아 수면 교육 팁", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0236", "source": "v4new", "task": "설명", "level": "L1", "input": "육아휴직 기간 얼마야?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0237", "source": "v4new", "task": "추천", "level": "L1", "input": "아이와 함께하는 취미 추천", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0238", "source": "v4new", "task": "기타", "level": "L1", "input": "편식하는 아이 해결법", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0239", "source": "v4new", "task": "기획", "level": "L1", "input": "애기 옷 정리 팁?", "split": "train", "topic": "육아·교육"}
+{"id": "v4n_0240", "source": "v4new", "task": "기타", "level": "L1", "input": "CPA 준비 어떻게 해요?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0241", "source": "v4new", "task": "추천", "level": "L1", "input": "영어 단어 암기법 추천해줘", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0242", "source": "v4new", "task": "추천", "level": "L1", "input": "시험 스트레스 관리 팁", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0243", "source": "v4new", "task": "추천", "level": "L1", "input": "국어 문법 쉽게 외우는 법 있음?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0244", "source": "v4new", "task": "추천", "level": "L1", "input": "자기소개서 작성 꿀팁", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0245", "source": "v4new", "task": "추천", "level": "L1", "input": "IT 자격증 뭐 따야 돼?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0246", "source": "v4new", "task": "기타", "level": "L1", "input": "공부 집중 안될 때 어케하냐", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0247", "source": "v4new", "task": "설명", "level": "L1", "input": "수학 문제 풀이법 설명", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0248", "source": "v4new", "task": "비교", "level": "L1", "input": "시험 전날 밤샘 존버?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0249", "source": "v4new", "task": "설명", "level": "L1", "input": "토익 공부법 좀 알려줘", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0250", "source": "v4new", "task": "설명", "level": "L1", "input": "한국사 자격증 공부법", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0251", "source": "v4new", "task": "추천", "level": "L1", "input": "효율적인 시간관리 비법", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0252", "source": "v4new", "task": "기타", "level": "L1", "input": "대학원 면접 준비 어케함?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0253", "source": "v4new", "task": "비교", "level": "L1", "input": "연습 문제 많이 풀어야 해?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0254", "source": "v4new", "task": "비교", "level": "L1", "input": "스터디 그룹 장점?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0255", "source": "v4new", "task": "비교", "level": "L1", "input": "사이버대학 vs 일반대학", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0256", "source": "v4new", "task": "추천", "level": "L1", "input": "단기 기억력 향상법?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0257", "source": "v4new", "task": "기타", "level": "L1", "input": "IT 자격증 리스트", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0258", "source": "v4new", "task": "기획", "level": "L1", "input": "시험기간 공부 루틴", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0259", "source": "v4new", "task": "기타", "level": "L1", "input": "국제 무역사 자격증 가치?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0260", "source": "v4new", "task": "기획", "level": "L1", "input": "시험 전날 뭐 하는 게 좋아?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0261", "source": "v4new", "task": "기타", "level": "L1", "input": "정신 차리고 공부하란 말", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0262", "source": "v4new", "task": "비교", "level": "L1", "input": "취업 vs 대학원", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0263", "source": "v4new", "task": "추천", "level": "L1", "input": "인강 듣는데 집중 팁", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0264", "source": "v4new", "task": "추천", "level": "L1", "input": "공부할 때 듣기 좋은 음악", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0265", "source": "v4new", "task": "비교", "level": "L1", "input": "MOOC 강의 어때?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0266", "source": "v4new", "task": "추천", "level": "L1", "input": "시험 기간 꿀팁", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0267", "source": "v4new", "task": "기획", "level": "L1", "input": "자기주도학습 계획 어케", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0268", "source": "v4new", "task": "비교", "level": "L1", "input": "파트타임 알바+공부 가능?", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0269", "source": "v4new", "task": "추천", "level": "L1", "input": "시험 잘 보는 법", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0270", "source": "v4new", "task": "기타", "level": "L1", "input": "전공 선택 고민 중", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0271", "source": "v4new", "task": "비교", "level": "L1", "input": "연필 vs 샤프", "split": "train", "topic": "공부·시험·자격증"}
+{"id": "v4n_0272", "source": "v4new", "task": "기타", "level": "L1", "input": "퇴사 타이밍 물어봐도?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0273", "source": "v4new", "task": "기타", "level": "L1", "input": "이직이 답일까?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0274", "source": "v4new", "task": "추천", "level": "L1", "input": "연봉 협상 팁 좀", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0275", "source": "v4new", "task": "기획", "level": "L1", "input": "커리어 패스 계획 필요", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0276", "source": "v4new", "task": "추천", "level": "L1", "input": "직장 내 괴롭힘 대처법", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0277", "source": "v4new", "task": "기타", "level": "L1", "input": "커버레터 시작 문구 뭐야?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0278", "source": "v4new", "task": "기타", "level": "L1", "input": "상사한테 메일 어떻게 보내죠?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0279", "source": "v4new", "task": "추천", "level": "L1", "input": "이력서 사진 뭐 입어?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0280", "source": "v4new", "task": "기타", "level": "L1", "input": "실무 경험 없는 채용 있나?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0281", "source": "v4new", "task": "추천", "level": "L1", "input": "이력서 양식 추천해줘", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0282", "source": "v4new", "task": "기타", "level": "L1", "input": "전공 살려야 하나?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0283", "source": "v4new", "task": "비교", "level": "L1", "input": "기업 문화 비교 좀", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0284", "source": "v4new", "task": "기타", "level": "L1", "input": "연차 어떻게 써야 효율적?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0285", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "팀 회식 아이디어 줘", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0286", "source": "v4new", "task": "설명", "level": "L1", "input": "리더십 스타일 설명해 줘", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0287", "source": "v4new", "task": "비교", "level": "L1", "input": "회사 복지 정책 분석할래?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0288", "source": "v4new", "task": "기타", "level": "L1", "input": "퇴사 이유 설득력 있게", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0289", "source": "v4new", "task": "추천", "level": "L1", "input": "면접 예상 질문 리스트 있나?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0290", "source": "v4new", "task": "추천", "level": "L1", "input": "직장 내 인간관계 조언 좀", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0291", "source": "v4new", "task": "비교", "level": "L1", "input": "파트타임과 풀타임 장단점?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0292", "source": "v4new", "task": "설명", "level": "L1", "input": "직무적합성 설명해봐", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0293", "source": "v4new", "task": "추천", "level": "L1", "input": "자기계발 뭐 배워 볼까?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0294", "source": "v4new", "task": "추천", "level": "L1", "input": "첫 출근 복장 추천", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0295", "source": "v4new", "task": "기타", "level": "L1", "input": "회사 안티프레질 전략은?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0296", "source": "v4new", "task": "추천", "level": "L1", "input": "업무 생산성 향상법", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0297", "source": "v4new", "task": "기타", "level": "L1", "input": "선배한테 질문해도 되나?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0298", "source": "v4new", "task": "기타", "level": "L1", "input": "팀 프로젝트 리더십 어때?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0299", "source": "v4new", "task": "기타", "level": "L1", "input": "연말 정산 뭐 챙겨야 돼?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0300", "source": "v4new", "task": "설명", "level": "L1", "input": "조직 개편 왜 하는 거야?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0301", "source": "v4new", "task": "기획", "level": "L1", "input": "신입사원 교육 계획", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0302", "source": "v4new", "task": "비교", "level": "L1", "input": "재택근무와 출근 비교", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0303", "source": "v4new", "task": "추천", "level": "L1", "input": "직무 스트레칭 방법", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0304", "source": "v4new", "task": "추천", "level": "L1", "input": "워라밸 유지법?", "split": "train", "topic": "취업·이직·직장생활"}
+{"id": "v4n_0305", "source": "v4new", "task": "설명", "level": "L1", "input": "빅데이터 뭐야?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0306", "source": "v4new", "task": "설명", "level": "L1", "input": "SQL로 데이터 뽑는 법", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0307", "source": "v4new", "task": "추천", "level": "L1", "input": "AI 추천 도구는?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0308", "source": "v4new", "task": "설명", "level": "L1", "input": "HTML5가 뭐지?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0309", "source": "v4new", "task": "비교", "level": "L1", "input": "비주얼 스튜디오 코드 좋아?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0310", "source": "v4new", "task": "설명", "level": "L1", "input": "자바스크립트 기본 문법", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0311", "source": "v4new", "task": "추천", "level": "L1", "input": "리눅스 명령어 추천", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0312", "source": "v4new", "task": "추천", "level": "L1", "input": "프로그래밍 언어 뭐 배울까?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0313", "source": "v4new", "task": "추천", "level": "L1", "input": "데이터 시각화 툴 추천", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0314", "source": "v4new", "task": "설명", "level": "L1", "input": "마이크로서비스 장점은?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0315", "source": "v4new", "task": "설명", "level": "L1", "input": "서버리스 컴퓨팅이 뭔가요?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0316", "source": "v4new", "task": "비교", "level": "L1", "input": "테스트 자동화 도구 비교", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0317", "source": "v4new", "task": "추천", "level": "L1", "input": "프론트엔드 프레임워크 추천", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0318", "source": "v4new", "task": "추천", "level": "L1", "input": "안드로이드 개발 툴 뭐씀?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0319", "source": "v4new", "task": "비교", "level": "L1", "input": "C언어랑 C++ 차이", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0320", "source": "v4new", "task": "추천", "level": "L1", "input": "인공지능 공부 어디서 시작?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0321", "source": "v4new", "task": "설명", "level": "L1", "input": "데이터베이스 설계법", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0322", "source": "v4new", "task": "추천", "level": "L1", "input": "파이썬 라이브러리 추천", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0323", "source": "v4new", "task": "설명", "level": "L1", "input": "클라우드 장단점 설명", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0324", "source": "v4new", "task": "설명", "level": "L1", "input": "챗GPT 사용법", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0325", "source": "v4new", "task": "설명", "level": "L1", "input": "버전 관리 시스템 종류", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0326", "source": "v4new", "task": "기획", "level": "L1", "input": "기계학습 프로젝트 기획", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0327", "source": "v4new", "task": "설명", "level": "L1", "input": "RPA가 뭐예요?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0328", "source": "v4new", "task": "추천", "level": "L1", "input": "백엔드 언어 추천 좀", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0329", "source": "v4new", "task": "비교", "level": "L1", "input": "kubernetes랑 docker 차이", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0330", "source": "v4new", "task": "설명", "level": "L1", "input": "데브옵스 장점", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0331", "source": "v4new", "task": "추천", "level": "L1", "input": "머신러닝 모델 추천", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0332", "source": "v4new", "task": "추천", "level": "L1", "input": "데이터 분석 도구 뭐씀?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0333", "source": "v4new", "task": "설명", "level": "L1", "input": "Jenkins 설명해줘", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0334", "source": "v4new", "task": "설명", "level": "L1", "input": "알고리즘 종류 소개", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0335", "source": "v4new", "task": "설명", "level": "L1", "input": "코틀린 추천 이유?", "split": "train", "topic": "IT·프로그래밍 개념과 도구"}
+{"id": "v4n_0336", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "블로그 첫 문단 아이디어", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0337", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "러브레터 첫 줄 무슨 말?", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0338", "source": "v4new", "task": "추천", "level": "L1", "input": "인생 명언 좀", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0339", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "노래 가사 같은 문장", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0340", "source": "v4new", "task": "설명", "level": "L1", "input": "영어 에세이 서론 팁", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0341", "source": "v4new", "task": "기획", "level": "L1", "input": "여행 일정 계획", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0342", "source": "v4new", "task": "설명", "level": "L1", "input": "긴급 상황 대처법", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0343", "source": "v4new", "task": "추천", "level": "L1", "input": "재밌는 영화 추천", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0344", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "SNS 프로필 문구?", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0345", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "포스트 내용 아이디어", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0346", "source": "v4new", "task": "설명", "level": "L1", "input": "비즈니스 이메일 시작법", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0347", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "소설 제목 뭐가 좋을까", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0348", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "풍경 묘사 글귀", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0349", "source": "v4new", "task": "설명", "level": "L1", "input": "피부 관리 꿀팁", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0350", "source": "v4new", "task": "기획", "level": "L1", "input": "운동 루틴 제안", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0351", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "고백할 때 쓸 말 없나", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0352", "source": "v4new", "task": "기타", "level": "L1", "input": "시작과 끝을 연결하는 문단", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0353", "source": "v4new", "task": "설명", "level": "L1", "input": "자기소개서에서 피해야 하는 것들", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0354", "source": "v4new", "task": "기획", "level": "L1", "input": "면접 대답 준비", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0355", "source": "v4new", "task": "추천", "level": "L1", "input": "주제별 독서 리스트", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0356", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "느낌 있는 사진 캡션", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0357", "source": "v4new", "task": "설명", "level": "L1", "input": "미래 기술 트렌드", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0358", "source": "v4new", "task": "추천", "level": "L1", "input": "주말 여행 장소", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0359", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "인스타그램 스토리 아이디어", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0360", "source": "v4new", "task": "글쓰기", "level": "L1", "input": "책 리뷰 첫 문장", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0361", "source": "v4new", "task": "추천", "level": "L1", "input": "괜찮은 투자 방법?", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0362", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "카페 인테리어 아이디어", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0363", "source": "v4new", "task": "비교", "level": "L1", "input": "비슷한 뜻의 단어 비교", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0364", "source": "v4new", "task": "기획", "level": "L1", "input": "여름휴가 계획", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0365", "source": "v4new", "task": "아이디어 요청", "level": "L1", "input": "유튜브 채널 컨셉 뭐가 좋을까?", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0366", "source": "v4new", "task": "추천", "level": "L1", "input": "새로운 취미 추천", "split": "train", "topic": "글쓰기·창작·SNS 문구"}
+{"id": "v4n_0367", "source": "v4new", "task": "비교", "level": "L1", "input": "유럽 vs 미국 여행 어디가 나음?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0368", "source": "v4new", "task": "추천", "level": "L1", "input": "제주도에서 꼭 가야 할 곳?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0369", "source": "v4new", "task": "추천", "level": "L1", "input": "파리 가면 뭐 해야 돼?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0370", "source": "v4new", "task": "기획", "level": "L1", "input": "방콕 여행 일정은 어떻게?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0371", "source": "v4new", "task": "설명", "level": "L1", "input": "여행 가방 챙기기 꿀팁 있음?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0372", "source": "v4new", "task": "추천", "level": "L1", "input": "비행기에서 뭐 입을까?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0373", "source": "v4new", "task": "추천", "level": "L1", "input": "해외여행할 때 필수 앱 알려줘", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0374", "source": "v4new", "task": "추천", "level": "L1", "input": "가성비 좋은 호텔 추천해줘", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0375", "source": "v4new", "task": "설명", "level": "L1", "input": "이탈리아 음식 뭐가 유명해?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0376", "source": "v4new", "task": "기타", "level": "L1", "input": "혼자 여행하는 사람 어때?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0377", "source": "v4new", "task": "추천", "level": "L1", "input": "중국에서 유명한 관광지?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0378", "source": "v4new", "task": "기타", "level": "L1", "input": "여행 블로그 시작할까?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0379", "source": "v4new", "task": "설명", "level": "L1", "input": "해외에서 안전하게 다니려면?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0380", "source": "v4new", "task": "비교", "level": "L1", "input": "패키지 여행은 별로임?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0381", "source": "v4new", "task": "설명", "level": "L1", "input": "여행 사진 잘 찍는 법!", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0382", "source": "v4new", "task": "기타", "level": "L1", "input": "유럽 배낭여행 어때?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0383", "source": "v4new", "task": "설명", "level": "L1", "input": "인터넷에서 싸게 항공권 구입?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0384", "source": "v4new", "task": "추천", "level": "L1", "input": "대만 가면 쇼핑 어디서?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0385", "source": "v4new", "task": "설명", "level": "L1", "input": "스페인 언어 장벽 어때?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0386", "source": "v4new", "task": "추천", "level": "L1", "input": "차박 캠핑 어디서 할까?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0387", "source": "v4new", "task": "비교", "level": "L1", "input": "인도네시아 리조트 vs 호텔?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0388", "source": "v4new", "task": "설명", "level": "L1", "input": "한국에서 외국인 친구에게 편지 쓸 때 주의할 점?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0389", "source": "v4new", "task": "추천", "level": "L1", "input": "재밌는 여행 게임 뭐 있을까?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0390", "source": "v4new", "task": "추천", "level": "L1", "input": "여름휴가 어디가 좋음?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0391", "source": "v4new", "task": "추천", "level": "L1", "input": "겨울 여행지로 어디가 좋아?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0392", "source": "v4new", "task": "기타", "level": "L1", "input": "여행 중 만난 사람들에게 편지 쓰고 싶어", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0393", "source": "v4new", "task": "설명", "level": "L1", "input": "여행 중 잃어버린 물건 찾는 법", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0394", "source": "v4new", "task": "기획", "level": "L1", "input": "한국에서 스위스까지 가는 최단 루트?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0395", "source": "v4new", "task": "설명", "level": "L1", "input": "인도 여행 준비물 뭐 챙겨야돼?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0396", "source": "v4new", "task": "설명", "level": "L1", "input": "여행 일기 쓰는 방법 좀?", "split": "train", "topic": "여행·지역"}
+{"id": "v4n_0397", "source": "v4new", "task": "추천", "level": "L1", "input": "가성비 좋은 스마트폰?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0398", "source": "v4new", "task": "기타", "level": "L1", "input": "세일 언제 해?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0399", "source": "v4new", "task": "정보", "level": "L1", "input": "이 달의 신상 나왔나요?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0400", "source": "v4new", "task": "비교", "level": "L1", "input": "이 브랜드 어때?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0401", "source": "v4new", "task": "추천", "level": "L1", "input": "요즘 유행하는 신발?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0402", "source": "v4new", "task": "정보", "level": "L1", "input": "블랙프라이데이 날짜", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0403", "source": "v4new", "task": "추천", "level": "L1", "input": "저렴한 노트북 뭐 있을까?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0404", "source": "v4new", "task": "비교", "level": "L1", "input": "누가 써봤어요? 괜찮아요?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0405", "source": "v4new", "task": "추천", "level": "L1", "input": "충전 빠른 보조배터리?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0406", "source": "v4new", "task": "정보", "level": "L1", "input": "신상 립스틱 컬러?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0407", "source": "v4new", "task": "추천", "level": "L1", "input": "다이어트 식품 뭐가 있어?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0408", "source": "v4new", "task": "추천", "level": "L1", "input": "마스크팩 추천 부탁해요", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0409", "source": "v4new", "task": "추천", "level": "L1", "input": "집에서 쓸 가전제품은?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0410", "source": "v4new", "task": "추천", "level": "L1", "input": "여름향 추천좀요", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0411", "source": "v4new", "task": "비교", "level": "L1", "input": "이거랑 저거랑 비교 부탁", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0412", "source": "v4new", "task": "기타", "level": "L1", "input": "겨울 자켓 뭐 샀어?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0413", "source": "v4new", "task": "정보", "level": "L1", "input": "노트북 할인 정보 있음?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0414", "source": "v4new", "task": "추천", "level": "L1", "input": "핫한 아이템 뭐 있어?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0415", "source": "v4new", "task": "추천", "level": "L1", "input": "LED 램프 추천", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0416", "source": "v4new", "task": "비교", "level": "L1", "input": "질문 있어요, 이 제품 좋아요?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0417", "source": "v4new", "task": "기타", "level": "L1", "input": "저렴한 쇼핑 팁 있나요?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0418", "source": "v4new", "task": "기타", "level": "L1", "input": "뷰티템 뭐 쓰세요?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0419", "source": "v4new", "task": "추천", "level": "L1", "input": "가격 대비 좋은 TV?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0420", "source": "v4new", "task": "추천", "level": "L1", "input": "겨울 맞이 아이템 추천", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0421", "source": "v4new", "task": "추천", "level": "L1", "input": "저렴하고 질 좋은 것?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0422", "source": "v4new", "task": "추천", "level": "L1", "input": "리뷰 좋은 제품 뭐 있어?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0423", "source": "v4new", "task": "기타", "level": "L1", "input": "이거 사고 싶다", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0424", "source": "v4new", "task": "기획", "level": "L1", "input": "여행 가면 뭐 필요할까?", "split": "train", "topic": "쇼핑·제품 추천"}
+{"id": "v4n_0425", "source": "v4new", "task": "설명", "level": "L1", "input": "포토샵으로 간단한 사진 보정하는 법?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0426", "source": "v4new", "task": "기획", "level": "L1", "input": "악기 배우는 거 어때?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0427", "source": "v4new", "task": "비교", "level": "L1", "input": "스포츠 게임 중에 제일 인기 있는 거 뭐야?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0428", "source": "v4new", "task": "추천", "level": "L1", "input": "이번 주말에 할만한 취미 없을까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0429", "source": "v4new", "task": "기타", "level": "L1", "input": "히트곡 리스트 만들어줘!", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0430", "source": "v4new", "task": "설명", "level": "L1", "input": "영화 리뷰 쓰는 팁 있을까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0431", "source": "v4new", "task": "요약", "level": "L1", "input": "요즘 핫한 K-pop 그룹?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0432", "source": "v4new", "task": "추천", "level": "L1", "input": "동물 다큐멘터리 재밌는 거 있어?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0433", "source": "v4new", "task": "비교", "level": "L1", "input": "이거저거 비교해봐: 플스5 vs 엑박", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0434", "source": "v4new", "task": "추천", "level": "L1", "input": "미드 자막 사이트 추천해줘", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0435", "source": "v4new", "task": "설명", "level": "L1", "input": "퍼즐 풀기 너무 어렵다, 쉽게 푸는 법?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0436", "source": "v4new", "task": "추천", "level": "L1", "input": "빨리 배울 수 있는 예술 활동 뭐 있을까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0437", "source": "v4new", "task": "추천", "level": "L1", "input": "만화책 추천부탁", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0438", "source": "v4new", "task": "추천", "level": "L1", "input": "인디 게임 대박난 거 있어?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0439", "source": "v4new", "task": "설명", "level": "L1", "input": "사진 찍을 때 포즈 어떻게 해야 돼?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0440", "source": "v4new", "task": "추천", "level": "L1", "input": "온라인으로 할 수 있는 취미 뭐가 좋을까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0441", "source": "v4new", "task": "기타", "level": "L1", "input": "펜팔 친구에 쓸 편지 시작 문구", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0442", "source": "v4new", "task": "기타", "level": "L1", "input": "옛날 영화 리스트 좀!", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0443", "source": "v4new", "task": "추천", "level": "L1", "input": "요즘 인기 있는 하이틴 영화?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0444", "source": "v4new", "task": "추천", "level": "L1", "input": "취미로 할 만한 디지털 아트 뭐 있어?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0445", "source": "v4new", "task": "기타", "level": "L1", "input": "보컬 트레이닝 필요할까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0446", "source": "v4new", "task": "추천", "level": "L1", "input": "스트레스 풀리는 방법 추천해줘", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0447", "source": "v4new", "task": "기타", "level": "L1", "input": "글쓰기 주제 좀 던져봐", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0448", "source": "v4new", "task": "비교", "level": "L1", "input": "이 색깔 조합 괜찮아 보임?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0449", "source": "v4new", "task": "추천", "level": "L1", "input": "아기자기한 카페 알려줘", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0450", "source": "v4new", "task": "설명", "level": "L1", "input": "녹음할 때 장비 뭐 필요해?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0451", "source": "v4new", "task": "기타", "level": "L1", "input": "추억의 게임 다시 해볼까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0452", "source": "v4new", "task": "추천", "level": "L1", "input": "인기 팟캐스트 뭐 있어?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0453", "source": "v4new", "task": "설명", "level": "L1", "input": "요가 시작하려면 뭐 필요해?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0454", "source": "v4new", "task": "기타", "level": "L1", "input": "공연 갈 때 뭐 입을까?", "split": "train", "topic": "취미·게임·문화·엔터"}
+{"id": "v4n_0455", "source": "v4new", "task": "설명", "level": "L1", "input": "양자역학 쉽게 설명", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0456", "source": "v4new", "task": "설명", "level": "L1", "input": "로마 제국의 멸망 이유?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0457", "source": "v4new", "task": "설명", "level": "L1", "input": "아인슈타인 배경 설명해줘", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0458", "source": "v4new", "task": "설명", "level": "L1", "input": "2차 세계대전 원인 뭐?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0459", "source": "v4new", "task": "추천", "level": "L1", "input": "좀 쉬운 물리학 책 추천", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0460", "source": "v4new", "task": "기획", "level": "L1", "input": "에베레스트 등반 계획", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0461", "source": "v4new", "task": "설명", "level": "L1", "input": "피라미드 언제 지었어?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0462", "source": "v4new", "task": "추천", "level": "L1", "input": "좋은 과학 다큐 추천", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0463", "source": "v4new", "task": "설명", "level": "L1", "input": "태양계 행성 순서 알려줘", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0464", "source": "v4new", "task": "설명", "level": "L1", "input": "중세 시대 생활 어땠어?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0465", "source": "v4new", "task": "설명", "level": "L1", "input": "화성 탐사 계획 있냐?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0466", "source": "v4new", "task": "요약", "level": "L1", "input": "세종대왕 업적 키워드", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0467", "source": "v4new", "task": "설명", "level": "L1", "input": "와이파이 원리 좀", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0468", "source": "v4new", "task": "설명", "level": "L1", "input": "인류 최초의 문명이 뭐임?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0469", "source": "v4new", "task": "설명", "level": "L1", "input": "영국 산업혁명 영향?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0470", "source": "v4new", "task": "설명", "level": "L1", "input": "아폴로 11호 언제 갔어?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0471", "source": "v4new", "task": "기타", "level": "L1", "input": "화학 반응 실험 아이디어", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0472", "source": "v4new", "task": "기타", "level": "L1", "input": "상식 퀴즈 내줄래?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0473", "source": "v4new", "task": "설명", "level": "L1", "input": "지구 자전 속도 몇이야?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0474", "source": "v4new", "task": "설명", "level": "L1", "input": "대체에너지 뭐 있어?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0475", "source": "v4new", "task": "설명", "level": "L1", "input": "자가면역질환 설명", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0476", "source": "v4new", "task": "설명", "level": "L1", "input": "고대 이집트 문화?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0477", "source": "v4new", "task": "설명", "level": "L1", "input": "진화론의 기본 개념?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0478", "source": "v4new", "task": "기타", "level": "L1", "input": "기후변화 대응법", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0479", "source": "v4new", "task": "비교", "level": "L1", "input": "에디슨과 테슬라 차이", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0480", "source": "v4new", "task": "설명", "level": "L1", "input": "우주 여행 가능할까?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0481", "source": "v4new", "task": "추천", "level": "L1", "input": "면역력 높이는 방법 추천", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0482", "source": "v4new", "task": "설명", "level": "L1", "input": "바이킹들은 뭐했어?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0483", "source": "v4new", "task": "요약", "level": "L1", "input": "이번 주 과학 뉴스 요약", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0484", "source": "v4new", "task": "설명", "level": "L1", "input": "수학이 세상에 중요해?", "split": "train", "topic": "과학·역사·상식"}
+{"id": "v4n_0485", "source": "v4new", "task": "기획", "level": "L1", "input": "집 인테리어 어떻게 바꾸지?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0486", "source": "v4new", "task": "설명", "level": "L1", "input": "중고차 살 때 뭐 확인해?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0487", "source": "v4new", "task": "설명", "level": "L1", "input": "왜 고양이는 밤에 활발해?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0488", "source": "v4new", "task": "비교", "level": "L1", "input": "SUV랑 세단 중 뭐가 나아?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0489", "source": "v4new", "task": "기타", "level": "L1", "input": "강아지랑 제주도 여행!", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0490", "source": "v4new", "task": "추천", "level": "L1", "input": "자동차 보험 추천좀", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0491", "source": "v4new", "task": "설명", "level": "L1", "input": "고양이랑 잘 노는 방법?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0492", "source": "v4new", "task": "기타", "level": "L1", "input": "식물 많이 키우는 집 어때?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0493", "source": "v4new", "task": "설명", "level": "L1", "input": "전기차 사면 좋은 점은?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0494", "source": "v4new", "task": "설명", "level": "L1", "input": "집값 왜 이렇게 비싸?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0495", "source": "v4new", "task": "추천", "level": "L1", "input": "중고차 사이트 추천", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0496", "source": "v4new", "task": "기획", "level": "L1", "input": "이사할 때 체크리스트", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0497", "source": "v4new", "task": "설명", "level": "L1", "input": "반려동물 키울 때 주의점?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0498", "source": "v4new", "task": "기획", "level": "L1", "input": "뉴욕으로 이사갈까?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0499", "source": "v4new", "task": "설명", "level": "L1", "input": "강아지 목욕 얼마나 자주?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0500", "source": "v4new", "task": "추천", "level": "L1", "input": "집에 무슨 꽃 심지?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0501", "source": "v4new", "task": "설명", "level": "L1", "input": "자동차 세차 주기?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0502", "source": "v4new", "task": "설명", "level": "L1", "input": "차 기름 뭐로 넣어야해?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0503", "source": "v4new", "task": "추천", "level": "L1", "input": "강아지 산책로 추천", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0504", "source": "v4new", "task": "추천", "level": "L1", "input": "집에 필요한 공구?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0505", "source": "v4new", "task": "비교", "level": "L1", "input": "펫샵 비교 좀 해줘", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0506", "source": "v4new", "task": "기획", "level": "L1", "input": "고양이랑 놀러갈 곳?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0507", "source": "v4new", "task": "설명", "level": "L1", "input": "집값 안정화 언제?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0508", "source": "v4new", "task": "기타", "level": "L1", "input": "애완동물 호텔 후기", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0509", "source": "v4new", "task": "설명", "level": "L1", "input": "애완동물 훈련법?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0510", "source": "v4new", "task": "기획", "level": "L1", "input": "집에서 파스타 만들기?", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0511", "source": "v4new", "task": "기타", "level": "L1", "input": "반려동물과의 추억", "split": "train", "topic": "반려동물·자동차·집"}
+{"id": "v4n_0512", "source": "v4new", "task": "설명", "level": "L1", "input": "집 보수 비용 얼마?", "split": "train", "topic": "반려동물·자동차·집"}
