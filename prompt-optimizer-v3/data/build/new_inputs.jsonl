@@ -1,0 +1,195 @@
+{"id": "pt_0001", "source": "pass", "task": "기타", "level": "L1", "input": "이 Python 코드가 왜 안 돌아가는 거야?", "split": "train"}
+{"id": "pt_0002", "source": "pass", "task": "기타", "level": "L1", "input": "JavaScript로 간단한 계산기 만들어줄래?", "split": "train"}
+{"id": "pt_0003", "source": "pass", "task": "기타", "level": "L1", "input": "SQL 쿼리로 데이터베이스에서 유저 정보 가져오는 법 알려줘.", "split": "train"}
+{"id": "pt_0004", "source": "pass", "task": "기타", "level": "L1", "input": "C++에서 포인터가 뭐야? 좀 쉽게 설명해줘.", "split": "train"}
+{"id": "pt_0005", "source": "pass", "task": "기타", "level": "L1", "input": "파이썬 리스트와 딕셔너리의 차이점을 설명해 주세요.", "split": "train"}
+{"id": "pt_0006", "source": "pass", "task": "기타", "level": "L1", "input": "왜 내 SQL 쿼리가 느리지? 튜닝할 방법 좀 알려줘.", "split": "train"}
+{"id": "pt_0007", "source": "pass", "task": "기타", "level": "L1", "input": "자바에서 ArrayList랑 LinkedList 차이점이 뭐야?", "split": "train"}
+{"id": "pt_0009", "source": "pass", "task": "기타", "level": "L1", "input": "React 컴포넌트에서 상태 관리하는 법 좀 알려주라.", "split": "train"}
+{"id": "pt_0010", "source": "pass", "task": "기타", "level": "L1", "input": "이 Java 코드가 NullPointerException을 발생시키는 이유가 뭘까요?", "split": "train"}
+{"id": "pt_0011", "source": "pass", "task": "기타", "level": "L1", "input": "내가 만든 CSS 랜딩 페이지를 어떻게 개선할 수 있을까?", "split": "train"}
+{"id": "pt_0013", "source": "pass", "task": "기타", "level": "L1", "input": "Spring Boot에서 REST API 만드는 방법을 설명해 주세요.", "split": "train"}
+{"id": "pt_0014", "source": "pass", "task": "기타", "level": "L1", "input": "SQL에서 GROUP BY랑 HAVING의 차이는 뭐지?", "split": "train"}
+{"id": "pt_0015", "source": "pass", "task": "기타", "level": "L1", "input": "Node.js로 서버 구축하는 방법 좀 알려줘.", "split": "train"}
+{"id": "pt_0016", "source": "pass", "task": "기타", "level": "L1", "input": "여기 이 PHP 코드가 왜 에러가 나는지 몰라서 그런데, 도와줄 수 있어?", "split": "train"}
+{"id": "pt_0018", "source": "pass", "task": "기타", "level": "L1", "input": "파이썬에서 파일 읽고 쓰는 방법 간단히 설명해줘.", "split": "train"}
+{"id": "pt_0019", "source": "pass", "task": "기타", "level": "L1", "input": "React에서 useEffect Hook을 언제 사용하는 게 좋아?", "split": "train"}
+{"id": "pt_0020", "source": "pass", "task": "기타", "level": "L1", "input": "왜 내 웹사이트 CSS가 크롬에서만 깨지는 거지?", "split": "train"}
+{"id": "pt_0021", "source": "pass", "task": "기타", "level": "L1", "input": "Git으로 버전 관리하는 방법 쉽게 설명해 줄래?", "split": "train"}
+{"id": "pt_0022", "source": "pass", "task": "기타", "level": "L1", "input": "Docker로 컨테이너 만들고 관리하는 법을 좀 가르쳐주세요.", "split": "train"}
+{"id": "pt_0023", "source": "pass", "task": "기타", "level": "L1", "input": "이 JavaScript 코드를 더 효율적으로 만들 수 있는 방법이 있을까?", "split": "train"}
+{"id": "pt_0024", "source": "pass", "task": "기타", "level": "L1", "input": "C#의 LINQ가 뭐야? 어떻게 사용해?", "split": "train"}
+{"id": "pt_0025", "source": "pass", "task": "기타", "level": "L1", "input": "쿼리 성능을 좀 더 올리고 싶은데, 인덱스를 어떻게 최적화할 수 있어?", "split": "train"}
+{"id": "pt_0026", "source": "pass", "task": "기타", "level": "L1", "input": "2의 10승이 얼마야?", "split": "train"}
+{"id": "pt_0028", "source": "pass", "task": "기타", "level": "L1", "input": "저기, 79 더하기 15는?", "split": "train"}
+{"id": "pt_0029", "source": "pass", "task": "기타", "level": "L1", "input": "선생님, 삼각형의 내각의 합이 180도인 거 맞죠?", "split": "train"}
+{"id": "pt_0030", "source": "pass", "task": "기타", "level": "L1", "input": "친구야, 45 곱하기 12 계산 좀 해줘.", "split": "train"}
+{"id": "pt_0032", "source": "pass", "task": "기타", "level": "L1", "input": "x의 값은 뭔가요? 2x - 7 = 13", "split": "train"}
+{"id": "pt_0033", "source": "pass", "task": "기타", "level": "L1", "input": "계산 좀: 57을 3으로 나누면?", "split": "train"}
+{"id": "pt_0034", "source": "pass", "task": "기타", "level": "L1", "input": "어시스턴트님, 5의 팩토리얼이 어떻게 되죠?", "split": "train"}
+{"id": "pt_0035", "source": "pass", "task": "기타", "level": "L1", "input": "배수 판별법 설명해주실 수 있나요? 3의 배수", "split": "train"}
+{"id": "pt_0036", "source": "pass", "task": "기타", "level": "L1", "input": "그럼, 속도 = 거리 / 시간 공식을 변형해서 거리 구하는 방법은?", "split": "train"}
+{"id": "pt_0037", "source": "pass", "task": "기타", "level": "L1", "input": "절대값이란 게 뭐야?", "split": "train"}
+{"id": "pt_0038", "source": "pass", "task": "기타", "level": "L1", "input": "나누기 문제인데, 100을 4.5로 나눠줘.", "split": "train"}
+{"id": "pt_0040", "source": "pass", "task": "기타", "level": "L1", "input": "A와 B가 있는데, A가 3이고 B가 7일 때 합과 곱은?", "split": "train"}
+{"id": "pt_0041", "source": "pass", "task": "기타", "level": "L1", "input": "비율이 3:5인 두 숫자 중 합이 40인 숫자가 뭔지 구해줘.", "split": "train"}
+{"id": "pt_0042", "source": "pass", "task": "기타", "level": "L1", "input": "피타고라스 정리 한번 써줄 수 있어? a^2 + b^2 = c^2", "split": "train"}
+{"id": "pt_0043", "source": "pass", "task": "기타", "level": "L1", "input": "n이 5일 때 피보나치 수열의 n번째 항은?", "split": "train"}
+{"id": "pt_0044", "source": "pass", "task": "기타", "level": "L1", "input": "이차 방정식의 근의 공식을 유도해 주세요.", "split": "train"}
+{"id": "pt_0045", "source": "pass", "task": "기타", "level": "L1", "input": "간단한 문제: 99에서 33을 빼면?", "split": "train"}
+{"id": "pt_0047", "source": "pass", "task": "기타", "level": "L1", "input": "로그가 뭔지 쉽게 설명해 줘.", "split": "train"}
+{"id": "pt_0048", "source": "pass", "task": "기타", "level": "L1", "input": "9의 제곱근이 뭐더라?", "split": "train"}
+{"id": "pt_0049", "source": "pass", "task": "기타", "level": "L1", "input": "미적분학에서 적분의 정의를 설명해 줄래?", "split": "train"}
+{"id": "pt_0050", "source": "pass", "task": "기타", "level": "L1", "input": "복소수의 기본 연산 과정에 대해 설명해줘.", "split": "train"}
+{"id": "pt_0051", "source": "pass", "task": "기타", "level": "L1", "input": "이 글에서 중요한 날짜들만 추출해 줘: 2023년 10월 12일과 15일이 포함된 텍스트", "split": "train"}
+{"id": "pt_0052", "source": "pass", "task": "기타", "level": "L1", "input": "다음 데이터를 표로 만들어 줄래? 이름:영희, 직업:교사, 나이:29", "split": "train"}
+{"id": "pt_0053", "source": "pass", "task": "기타", "level": "L1", "input": "이 영어 문장들에서 동사만 뽑아줘: 'She runs fast.', 'They are eating.'", "split": "train"}
+{"id": "pt_0054", "source": "pass", "task": "기타", "level": "L1", "input": "여기서 인용된 문장들만 알려줘: \"나는 생각한다, 고로 존재한다\"라고 말했다.", "split": "train"}
+{"id": "pt_0055", "source": "pass", "task": "기타", "level": "L1", "input": "이 데이터 세트에서 평균 나이 계산해줄 수 있어? [23, 19, 35, 42]", "split": "train"}
+{"id": "pt_0056", "source": "pass", "task": "기타", "level": "L1", "input": "이 요약문에서 핵심 키워드 5개만 뽑아줘. \"환경 변화는 기후, 생태계, 생물 다양성에 영향을 미칩니다.\"", "split": "train"}
+{"id": "pt_0057", "source": "pass", "task": "기타", "level": "L1", "input": "이 텍스트에서 부정적인 단어만 찾아줘: \"오늘 날씨가 최악이었고 음식도 별로였어.\"", "split": "train"}
+{"id": "pt_0058", "source": "pass", "task": "기타", "level": "L1", "input": "이 목록에서 동물 이름만 추출해줄래? ['사과', '호랑이', '바나나', '코끼리']", "split": "train"}
+{"id": "pt_0060", "source": "pass", "task": "기타", "level": "L1", "input": "저 문장에서 모르는 단어를 뜻이랑 같이 설명해줄 수 있어? \"Ontology is a complex field of study.\"", "split": "train"}
+{"id": "pt_0061", "source": "pass", "task": "기타", "level": "L1", "input": "이 글에서 긍정적인 표현만 찾아봐: \"오늘은 멋진 날이었고 모든 것이 잘 풀렸다!\"", "split": "train"}
+{"id": "pt_0062", "source": "pass", "task": "기타", "level": "L1", "input": "아래 문장에서 형용사만 골라줘: 'The quick brown fox jumps over the lazy dog.'", "split": "train"}
+{"id": "pt_0063", "source": "pass", "task": "기타", "level": "L1", "input": "여기 대화에서 명사를 뽑아줘: \"안녕? 오늘 뭐 했어? 영화 봤어.\"", "split": "train"}
+{"id": "pt_0065", "source": "pass", "task": "기타", "level": "L1", "input": "이 자료에서 가장 많이 언급된 주제 알려줘: \"AI, 머신러닝, 데이터사이언스, AI, 데이터사이언스\"", "split": "train"}
+{"id": "pt_0066", "source": "pass", "task": "기타", "level": "L1", "input": "여기서 공백 제거해주라: ' H e l l o W o r l d '", "split": "train"}
+{"id": "pt_0067", "source": "pass", "task": "기타", "level": "L1", "input": "이 문장에서 시간 관련 표현만 골라내 줘: 'I'll see you at 5 pm tomorrow after the meeting.'", "split": "train"}
+{"id": "pt_0068", "source": "pass", "task": "기타", "level": "L1", "input": "여기서 필요없는 불용어들 빼고 주요 단어만 남겨줘: \"The cat sat on the mat.\"", "split": "train"}
+{"id": "pt_0070", "source": "pass", "task": "기타", "level": "L1", "input": "이 텍스트에서 숫자만 추출해줘: \"I have 2 apples and 3 oranges.\"", "split": "train"}
+{"id": "pt_0071", "source": "pass", "task": "기타", "level": "L1", "input": "제시된 텍스트에서 주어만 분리해서 정리해줘: '나비가 꽃을 찾고 있다, 고양이는 창밖을 보고 있다'", "split": "train"}
+{"id": "pt_0072", "source": "pass", "task": "기타", "level": "L1", "input": "여기에서 시제 관련된 표현만 찾아볼 수 있어? \"내일은 날씨가 좋다고 했어.\"", "split": "train"}
+{"id": "pt_0073", "source": "pass", "task": "기타", "level": "L1", "input": "이 문장에서 장소에 관한 것만 추려줘: '우리는 바다로 여행을 갔다. 공기가 상쾌했다.'", "split": "train"}
+{"id": "pt_0074", "source": "pass", "task": "기타", "level": "L1", "input": "이 문장에서 감정이 드러나는 표현만 알려줘: '그녀는 충격을 받았다며 울었다.'", "split": "train"}
+{"id": "pt_0076", "source": "pass", "task": "기타", "level": "L1", "input": "이거 풀어줘: 세 친구가 있는데, 그들의 나이를 합치면 30이야. 첫 번째 친구는 두 번째 친구보다 두 살 많고, 세 번째 친구는 첫 번째 친구보다 한 살 적어. 각 친구의 나이는 몇 살일까?", "split": "train"}
+{"id": "pt_0077", "source": "pass", "task": "기타", "level": "L1", "input": "나만 아는 숫자야. 1부터 100까지 숫자가 있어. 이 중 네가 생각하는 숫자는 홀수이고, 3의 배수야. 이 숫자는 몇일까?", "split": "train"}
+{"id": "pt_0079", "source": "pass", "task": "기타", "level": "L1", "input": "논리 문제 하나 내줄래? 자전거는 두 바퀴로 굴러가. 그렇다면 자동차는 몇 바퀴로 굴러가겠어?", "split": "train"}
+{"id": "pt_0080", "source": "pass", "task": "기타", "level": "L1", "input": "가상의 나라에서 네 마을이 있어. 모든 마을은 서로 길로 연결되어 있어. 이때 가장 적은 수의 길을 끊어 마을들을 두 그룹으로 나눌 수 있을까?", "split": "train"}
+{"id": "pt_0081", "source": "pass", "task": "기타", "level": "L1", "input": "작은 수학 퍼즐 있어? 두 숫자의 곱이 36이고, 합이 13일 때, 두 숫자는 뭘까?", "split": "train"}
+{"id": "pt_0082", "source": "pass", "task": "기타", "level": "L1", "input": "영어로 된 문제 좀 풀어줘. There are two ducks in front of a duck, two ducks behind a duck, and a duck in the middle. How many ducks are there?", "split": "train"}
+{"id": "pt_0083", "source": "pass", "task": "기타", "level": "L1", "input": "날씨가 더운 날엔 사람들이 아이스크림을 더 많이 사. 만약 오늘 아이스크림이 두 배 더 팔렸다면, 날씨가 얼마나 더운 걸까?", "split": "train"}
+{"id": "pt_0084", "source": "pass", "task": "기타", "level": "L1", "input": "재미있는 문제 하나! 두 사람의 이름을 번갈아 외치다가 모두 같은 이름을 외치면 게임이 끝나는 거야. 어떻게 외쳐야 가장 빨리 끝날까?", "split": "train"}
+{"id": "pt_0086", "source": "pass", "task": "기타", "level": "L1", "input": "서울에서 부산까지 가장 빠르게 가기 위한 방법 세 가지를 논리적으로 설명해줘.", "split": "train"}
+{"id": "pt_0087", "source": "pass", "task": "기타", "level": "L1", "input": "논리적으로 생각해 봐봐, A와 B는 같은 거리에 있는 두 도시야. A에서 B까지는 시속 60km로 가고, B에서 A까지는 시속 40km로 돌아온다면 평균 속도는?", "split": "train"}
+{"id": "pt_0088", "source": "pass", "task": "기타", "level": "L1", "input": "역할 놀이야. 두 도둑이 금고를 털고 도망가고 있어. 한 쪽 문이 고장났다면 어떻게 잡을 수 있을까?", "split": "train"}
+{"id": "pt_0089", "source": "pass", "task": "기타", "level": "L1", "input": "쉬운 퀴즈: 한 시간 동안 30개의 초콜릿을 만든다면, 두 시간 동안 몇 개를 만들 수 있을까?", "split": "train"}
+{"id": "pt_0090", "source": "pass", "task": "기타", "level": "L1", "input": "해볼 만한 문제: 10명의 사람들이 원형으로 앉아있어. 매 두 번째 사람마다 한 명씩 밖으로 나가면, 마지막에 남는 사람은?", "split": "train"}
+{"id": "pt_0091", "source": "pass", "task": "기타", "level": "L1", "input": "문제 내줘: 네 개의 연속된 숫자의 합이 30이야. 그런 숫자 중 가장 작은 건 뭘까?", "split": "train"}
+{"id": "pt_0093", "source": "pass", "task": "기타", "level": "L1", "input": "상자 두 개가 있는데, 한 상자엔 진짜 보물이 들어있고, 다른 상자엔 가짜 보물이 있어. 단서로 첫 번째 상자엔 '여기 진짜 보물이 있어'라고 쓰여 있고, 두 번째 상자엔 '여기 가짜 보물이 있어'라고 쓰여 있어. 어디에 진짜 보물이 있을까?", "split": "train"}
+{"id": "pt_0094", "source": "pass", "task": "기타", "level": "L1", "input": "세 마리의 고양이와 다섯 마리의 개가 있어. 모든 동물의 다리 수를 다 더하면 몇 개의 다리가 있을까?", "split": "train"}
+{"id": "pt_0095", "source": "pass", "task": "기타", "level": "L1", "input": "내가 가진 숫자는 제곱수야. 그런데 어떤 두 자릿수 숫자야. 그게 뭘까?", "split": "train"}
+{"id": "pt_0096", "source": "pass", "task": "기타", "level": "L1", "input": "간단한 수학 퀴즈: 두 개의 연속된 홀수의 합이 100이야. 첫 번째 홀수는 뭐야?", "split": "train"}
+{"id": "pt_0097", "source": "pass", "task": "기타", "level": "L1", "input": "수수께끼 하나 맞춰봐: 바닷가에서 이리저리 움직이지만 결코 젖지 않는 게 뭘까?", "split": "train"}
+{"id": "pt_0098", "source": "pass", "task": "기타", "level": "L1", "input": "문제 있어: 수영장이 두 개의 수도꼭지가 있어. 하나는 혼자 5시간에, 다른 하나는 3시간에 채워. 두 개를 동시에 틀면 몇 시간 걸릴까?", "split": "train"}
+{"id": "pt_0099", "source": "pass", "task": "기타", "level": "L1", "input": "도전해봐! 한 남자는 땅위를 걷다가 금이 간 거울을 발견했어. 그래서 그걸 보고 무슨 말을 했을까?", "split": "train"}
+{"id": "pt_0100", "source": "pass", "task": "기타", "level": "L1", "input": "간단한 퍼즐: 네 개의 서로 다른 자연수가 있고, 그들의 평균이 7이야. 가장 큰 수는?", "split": "train"}
+{"id": "l3x_0001", "source": "l3", "task": "요약", "level": "L3", "input": "IT 개발 프로젝트 중 클라우드 솔루션의 장단점을 비교한 자료를 A4 두 장 분량으로 요약해 줘.", "split": "train"}
+{"id": "l3x_0002", "source": "l3", "task": "요약", "level": "L3", "input": "교육학 논문에서 '메타인지 전략'에 대한 최근 연구를 요약해 주실 수 있나요? 500자 이내로 부탁드립니다.", "split": "train"}
+{"id": "l3x_0003", "source": "l3", "task": "요약", "level": "L3", "input": "B2B 마케팅 캠페인 사례 중 성공적인 케이스를 짧게 요약해서 브리핑에 참고하고 싶어.", "split": "train"}
+{"id": "l3x_0004", "source": "l3", "task": "요약", "level": "L3", "input": "최근 5년간 한국 경제 성장률 변화 추이를 그래프와 함께 요약해 주세요. 한 페이지만 부탁드려요.", "split": "train"}
+{"id": "l3x_0005", "source": "l3", "task": "요약", "level": "L3", "input": "심리학 연구에서 '인지 행동 치료'에 관한 주요 발견을 간단히 정리해 줘.", "split": "train"}
+{"id": "l3x_0006", "source": "l3", "task": "요약", "level": "L3", "input": "일본 여행을 계획 중인데, 주말 동안 갈 만한 관광 명소 세 곳을 요약해줘.", "split": "train"}
+{"id": "l3x_0007", "source": "l3", "task": "요약", "level": "L3", "input": "이번 주 주식 시장 동향을 200자 이내로 요약해 줘. 개인 투자자에게 유용한 정보만 부탁해.", "split": "train"}
+{"id": "l3x_0008", "source": "l3", "task": "요약", "level": "L3", "input": "글로벌 금융 위기에 대한 2020년 이후의 대응 정책을 한 페이지로 요약해 주세요.", "split": "train"}
+{"id": "l3x_0009", "source": "l3", "task": "요약", "level": "L3", "input": "'명상과 스트레스 관리'에 관한 의학 논문을 300자 이내로 요약 부탁드려.", "split": "train"}
+{"id": "l3x_0010", "source": "l3", "task": "요약", "level": "L3", "input": "디지털 마케팅 트렌드 중 '인플루언서 마케팅'의 성장세를 한 문단으로 요약해 줘.", "split": "train"}
+{"id": "l3x_0011", "source": "l3", "task": "요약", "level": "L3", "input": "전 세계 통신기술 발전 상황을 2023년 기준으로 간단히 요약하고 싶어.", "split": "train"}
+{"id": "l3x_0012", "source": "l3", "task": "요약", "level": "L3", "input": "비즈니스 협상 시 고려해야 할 문화 차이를 구체적인 예와 함께 5문장으로 요약해.", "split": "train"}
+{"id": "l3x_0013", "source": "l3", "task": "요약", "level": "L3", "input": "프랑스 요리의 특징과 주요 요리를 한 페이지 분량으로 요약해 주세요.", "split": "train"}
+{"id": "l3x_0014", "source": "l3", "task": "요약", "level": "L3", "input": "육아에서 중요한 아기 발달 단계에 대해 1년 기준으로 정리해줘.", "split": "train"}
+{"id": "l3x_0015", "source": "l3", "task": "요약", "level": "L3", "input": "비즈니스에서 고려해야 할 최근 법률 변경 사항을 세 줄로 요약해 줘.", "split": "train"}
+{"id": "l3x_0016", "source": "l3", "task": "요약", "level": "L3", "input": "영화 '인셉션'의 줄거리를 스포일러 없이 세 문장으로 요약하고 싶어.", "split": "train"}
+{"id": "l3x_0017", "source": "l3", "task": "요약", "level": "L3", "input": "데이터 사이언스 분야 주요 신기술 동향을 2023년 기준으로 요약해 주세요.", "split": "train"}
+{"id": "l3x_0018", "source": "l3", "task": "요약", "level": "L3", "input": "고령화 사회의 경제적 영향을 간단히 요약해 줄 수 있어?", "split": "train"}
+{"id": "l3x_0019", "source": "l3", "task": "요약", "level": "L3", "input": "기업에서 활용할 수 있는 최신 HR 트렌드를 간단히 요약해봐.", "split": "train"}
+{"id": "l3x_0020", "source": "l3", "task": "요약", "level": "L3", "input": "커리어 코칭에서 자주 언급되는 자기계발 방법을 두 가지 요약해 줘.", "split": "train"}
+{"id": "l3x_0021", "source": "l3", "task": "요약", "level": "L3", "input": "가족 관계 개선을 위한 심리학적 접근법을 3문장으로 요약해 주세요.", "split": "train"}
+{"id": "l3x_0022", "source": "l3", "task": "요약", "level": "L3", "input": "한국 전통 문화 중 '한옥'의 특징을 간단히 정리해줘.", "split": "train"}
+{"id": "l3x_0023", "source": "l3", "task": "설명", "level": "L3", "input": "최신 웹 프레임워크의 동향을 고려하여, 2023년 IT 업계에서 주목받는 기술 트렌드를 설명해줘. 특히 클라우드와 AI 통합 사례를 포함해 줘.", "split": "train"}
+{"id": "l3x_0024", "source": "l3", "task": "설명", "level": "L3", "input": "초등학생을 대상으로 하는 온라인 학습 플랫폼을 기획 중인데, 흥미를 유발할 수 있는 콘텐츠 구성 전략을 제시해 주세요.", "split": "train"}
+{"id": "l3x_0025", "source": "l3", "task": "설명", "level": "L3", "input": "스타트업 마케팅 캠페인 계획을 세우고 있어. 한정된 예산 내에서 최대한 효과적으로 온라인 광고를 운영하는 방법을 알려줘.", "split": "train"}
+{"id": "l3x_0026", "source": "l3", "task": "설명", "level": "L3", "input": "내년을 위한 투자 포트폴리오를 짜는데, 시장 불확실성을 고려한 자산 분배 전략을 설명해 줄 수 있어?", "split": "train"}
+{"id": "l3x_0027", "source": "l3", "task": "설명", "level": "L3", "input": "당뇨병 환자를 위한 최신 관리 전략을 다룬 최근 연구를 바탕으로 실생활에서 활용할 수 있는 팁을 몇 가지 알려줘.", "split": "train"}
+{"id": "l3x_0028", "source": "l3", "task": "설명", "level": "L3", "input": "혼자 유럽 배낭여행 계획 중이야. 저렴하면서도 좋은 숙소를 찾는 방법과 안전하게 여행하는 팁 좀 줘봐.", "split": "train"}
+{"id": "l3x_0029", "source": "l3", "task": "설명", "level": "L3", "input": "가족과 함께 집에서 쉽게 만들 수 있는 주말 저녁 요리 추천해줘. 시간이 많이 걸리지 않고 맛있는 걸로 부탁해!", "split": "train"}
+{"id": "l3x_0030", "source": "l3", "task": "설명", "level": "L3", "input": "국제 학술지에 논문을 제출할 계획인데, 연구 윤리에 맞춰 자료를 수집하고 분석하는 방법에 대한 조언 부탁드립니다.", "split": "train"}
+{"id": "l3x_0031", "source": "l3", "task": "설명", "level": "L3", "input": "중소기업을 위한 세무신고 절차와 필요 서류 목록을 간단히 설명해 주세요. 최근 변경 사항이 있으면 포함해서 알려주세요.", "split": "train"}
+{"id": "l3x_0032", "source": "l3", "task": "설명", "level": "L3", "input": "현재 한국 영화 산업의 트렌드와 관객들의 선호도에 대해 간략히 설명해줄래? 특히 OTT 플랫폼의 영향력에 대해 궁금해.", "split": "train"}
+{"id": "l3x_0033", "source": "l3", "task": "설명", "level": "L3", "input": "커리어 전환 고민 중인데, 성향에 맞는 직업 탐색을 위한 심층 자료와 유용한 테스트 추천 부탁해.", "split": "train"}
+{"id": "l3x_0034", "source": "l3", "task": "설명", "level": "L3", "input": "육아 스트레스를 줄이기 위한 부모의 자기 관리 방법에 대해 상세히 설명해줘. 실생활에 적용할 수 있는 실용적인 방법이면 좋겠어.", "split": "train"}
+{"id": "l3x_0035", "source": "l3", "task": "설명", "level": "L3", "input": "코딩 부트캠프 참가를 고려하고 있어. 가장 높은 취업률을 자랑하는 프로그램과 그 이유를 설명해 줘.", "split": "train"}
+{"id": "l3x_0036", "source": "l3", "task": "설명", "level": "L3", "input": "새로운 교육 커리큘럼을 개발 중입니다. 역량 기반 교육의 중요성과 이를 효과적으로 구성하는 방법을 설명해 주세요.", "split": "train"}
+{"id": "l3x_0037", "source": "l3", "task": "설명", "level": "L3", "input": "B2B 마케팅 전략 하에 효과적인 네트워킹 이벤트 계획안을 작성하고 싶어. 성공 사례를 들어 설명해 줄래?", "split": "train"}
+{"id": "l3x_0038", "source": "l3", "task": "설명", "level": "L3", "input": "주식 시장의 변동성에 대한 이해를 돕기 위해, 기본적인 경제 지표와 그들이 시장에 미치는 영향을 설명해 줘.", "split": "train"}
+{"id": "l3x_0039", "source": "l3", "task": "설명", "level": "L3", "input": "전문가가 아닌 사람이 알아야 할 기본적인 건강관리 지식을 알려주세요. 특히 예방의학의 중요성을 중심으로 부탁드립니다.", "split": "train"}
+{"id": "l3x_0040", "source": "l3", "task": "설명", "level": "L3", "input": "아시아 최고의 여행지를 테마별로 추천해줘. 자연 또는 도시 중심으로 각각 매력적인 곳 몇 군데를 알고 싶어.", "split": "train"}
+{"id": "l3x_0041", "source": "l3", "task": "설명", "level": "L3", "input": "빠르게 준비할 수 있는 점심 도시락 메뉴를 제안해 줘. 영양소가 균형 잡혀 있고 맛도 좋은 걸로 부탁해!", "split": "train"}
+{"id": "l3x_0042", "source": "l3", "task": "설명", "level": "L3", "input": "심리학 연구에서 사용하는 통계 기법 중, 가장 자주 쓰이는 방법과 그 이유를 설명해 주세요.", "split": "train"}
+{"id": "l3x_0043", "source": "l3", "task": "설명", "level": "L3", "input": "변호사로서 커리어를 쌓기 위한 필수 자격과 추후 전문 분야를 선택할 때 고려해야 할 점들에 대해 조언해 주세요.", "split": "train"}
+{"id": "l3x_0044", "source": "l3", "task": "설명", "level": "L3", "input": "최근 드라마와 영화에서 자주 사용되는 서사 구조와 그 성공 요인을 분석해줘. 대중의 취향 변화를 포함해서.", "split": "train"}
+{"id": "l3x_0045", "source": "l3", "task": "기획", "level": "L3", "input": "IT 부서의 신입 개발자를 대상으로 한 리액트 교육 프로그램 기획서를 작성해줘. 3개월 과정으로 주간 학습 목표가 포함되어 있어야 해.", "split": "train"}
+{"id": "l3x_0046", "source": "l3", "task": "기획", "level": "L3", "input": "초등학교 1~3학년 학생을 대상으로 하는 창의력 향상 워크숍을 기획해 주세요. 매주 1회, 총 4주간 진행되며, 온라인 자료가 포함되어야 합니다.", "split": "train"}
+{"id": "l3x_0047", "source": "l3", "task": "기획", "level": "L3", "input": "소규모 스타트업을 위한 마케팅 전략을 세워줘. SNS 플랫폼을 중심으로 한 캠페인 아이디어가 필요해.", "split": "train"}
+{"id": "l3x_0048", "source": "l3", "task": "기획", "level": "L3", "input": "다음 분기 경제 전망을 위한 리서치 자료를 요청합니다. 주요 경제 지표와 분석 포함하여 PDF 형식으로 부탁드립니다.", "split": "train"}
+{"id": "l3x_0049", "source": "l3", "task": "기획", "level": "L3", "input": "헬스케어 스타트업을 위한 보험 청구 간소화 솔루션을 제안해 주십시오. 법률적인 분석과 사용 사례가 포함되어야 합니다.", "split": "train"}
+{"id": "l3x_0050", "source": "l3", "task": "기획", "level": "L3", "input": "유럽 여행을 위한 2주 일정의 세부 여행 계획서를 만들어줘. 주요 도시와 함께 예상 비용도 포함해줘.", "split": "train"}
+{"id": "l3x_0051", "source": "l3", "task": "기획", "level": "L3", "input": "비건 라이프스타일을 위한 7일 식단 계획을 부탁해. 각각의 레시피와 영양 정보도 같이 제공해 줘.", "split": "train"}
+{"id": "l3x_0052", "source": "l3", "task": "기획", "level": "L3", "input": "다음 학술 세미나 주제로 '인공지능과 교육의 미래'에 관한 발표 자료를 준비해 주세요. 30분 발표용 슬라이드 형식으로 필요합니다.", "split": "train"}
+{"id": "l3x_0053", "source": "l3", "task": "기획", "level": "L3", "input": "한국 중소기업을 위한 세무 가이드라인을 작성해 줘. 최신 세법 정보와 절세 팁이 포함되었으면 해.", "split": "train"}
+{"id": "l3x_0054", "source": "l3", "task": "기획", "level": "L3", "input": "온라인 스트리밍 플랫폼에서 새로운 한국 드라마 리뷰 콘텐츠 기획 부탁드립니다. 시청자 분석과 트렌드도 반영해주세요.", "split": "train"}
+{"id": "l3x_0055", "source": "l3", "task": "기획", "level": "L3", "input": "디지털 마케팅 분야로의 커리어 전환을 목표로 하는 사람들을 위한 6개월 커리큘럼을 제시해줘. 주간 학습 내용과 실무 프로젝트가 있으면 좋겠어.", "split": "train"}
+{"id": "l3x_0056", "source": "l3", "task": "기획", "level": "L3", "input": "육아 스트레스 관리 워크숍 기획안을 만들어 드릴게요. 부모를 대상으로 하며, 오프라인 세션과 온라인 지원 포함으로 부탁드려요.", "split": "train"}
+{"id": "l3x_0057", "source": "l3", "task": "기획", "level": "L3", "input": "기술 스타트업을 위한 투자자 대상 피치 덱을 준비해 줘. 핵심 기술과 시장 잠재력이 잘 드러나야 해.", "split": "train"}
+{"id": "l3x_0058", "source": "l3", "task": "기획", "level": "L3", "input": "경영학과 대학생을 위한 연말 경제 포럼 일정과 주제 리스트를 제안해 주세요. 각 세션의 목표와 발표자도 고려해주세요.", "split": "train"}
+{"id": "l3x_0059", "source": "l3", "task": "기획", "level": "L3", "input": "전문가 대상의 '자율주행차' 주제 세미나 기획 요청드립니다. 기술적 최신 정보와 법적 문제에 대한 토론 포함으로 부탁드립니다.", "split": "train"}
+{"id": "l3x_0060", "source": "l3", "task": "기획", "level": "L3", "input": "영어 회화 능력 향상을 위한 3개월 학습 계획을 수립해줘. 주차별 과제와 평가 기준 포함해서 부탁해.", "split": "train"}
+{"id": "l3x_0061", "source": "l3", "task": "기획", "level": "L3", "input": "소비자 금융 교육을 위한 비디오 시리즈 콘텐츠 기획 부탁드립니다. 기초 경제 개념과 실생활 적용 사례 포함으로.", "split": "train"}
+{"id": "l3x_0062", "source": "l3", "task": "기획", "level": "L3", "input": "다문화 배경의 학생들을 위한 통합 교육 프로그램을 제안해 줘. 문화 이해와 언어 지원이 포함되었으면 좋겠어.", "split": "train"}
+{"id": "l3x_0063", "source": "l3", "task": "기획", "level": "L3", "input": "비상장 기업의 기업가치 평가를 위한 보고서를 작성해 주세요. 최근 사례와 비교 분석도 포함해주세요.", "split": "train"}
+{"id": "l3x_0064", "source": "l3", "task": "기획", "level": "L3", "input": "요가 초보자를 위한 4주 프로그램을 기획해줘. 주간별 목표와 필수 동작 설명이 필요해.", "split": "train"}
+{"id": "l3x_0065", "source": "l3", "task": "기획", "level": "L3", "input": "고객 경험 개선을 위한 AI 도입 전략을 제안해 주세요. 성공 사례 분석과 잠재적 리스크 분석까지 부탁드립니다.", "split": "train"}
+{"id": "l3x_0066", "source": "l3", "task": "기획", "level": "L3", "input": "지속 가능한 패션 브랜드 론칭을 위한 마케팅 플랜을 작성해줘. 온라인 캠페인과 협력 브랜드 아이디어가 필요해.", "split": "train"}
+{"id": "l3x_0067", "source": "l3", "task": "비교", "level": "L3", "input": "AI와 인간 번역가의 번역 품질을 성능과 비용을 기준으로 비교해 줘.", "split": "train"}
+{"id": "l3x_0068", "source": "l3", "task": "비교", "level": "L3", "input": "학생들을 위한 온라인 학습 플랫폼 두 개를 추천해 주고, 사용자 리뷰를 바탕으로 장단점을 평가해 주세요.", "split": "train"}
+{"id": "l3x_0069", "source": "l3", "task": "비교", "level": "L3", "input": "Python과 Java의 메모리 사용과 CPU 효율성을 주어진 코딩 과제 기준으로 비교 요청드립니다.", "split": "train"}
+{"id": "l3x_0070", "source": "l3", "task": "비교", "level": "L3", "input": "인터넷 마케팅과 전통적 마케팅의 ROI를 알아보기 쉽게 차트로 보여줘.", "split": "train"}
+{"id": "l3x_0071", "source": "l3", "task": "비교", "level": "L3", "input": "2022년과 2023년 한국 주식 시장 상황을 주요 지표들을 기준으로 비교 부탁드립니다.", "split": "train"}
+{"id": "l3x_0072", "source": "l3", "task": "비교", "level": "L3", "input": "비건 음식과 일반 음식의 영양소 차이와 건강에 미치는 영향을 조건을 두고 비교해 봐.", "split": "train"}
+{"id": "l3x_0073", "source": "l3", "task": "비교", "level": "L3", "input": "여름과 겨울 여행의 비용과 만족도를 인기 있는 관광지를 기준으로 비교해 줘.", "split": "train"}
+{"id": "l3x_0074", "source": "l3", "task": "비교", "level": "L3", "input": "일반 차와 전기 차의 유지비와 환경 영향 차이를 사례를 들어 설명해 주세요.", "split": "train"}
+{"id": "l3x_0075", "source": "l3", "task": "비교", "level": "L3", "input": "스타트업과 대기업의 근무 환경과 장단점을 5개 항목으로 나눠 비교해 줘.", "split": "train"}
+{"id": "l3x_0076", "source": "l3", "task": "비교", "level": "L3", "input": "영유아 발달 단계의 차이를 0세~3세 기준으로 설명해 줘.", "split": "train"}
+{"id": "l3x_0077", "source": "l3", "task": "비교", "level": "L3", "input": "Python의 메모리 관리와 C++의 메모리 관리를 장단점 중심으로 비교해 봐.", "split": "train"}
+{"id": "l3x_0078", "source": "l3", "task": "비교", "level": "L3", "input": "경제 발전을 위한 정부의 정책 두 가지를 과거 사례와 함께 비교해서 설명해 주십시오.", "split": "train"}
+{"id": "l3x_0079", "source": "l3", "task": "비교", "level": "L3", "input": "AI 기반 교육 도구와 전통적인 교육 방법의 효과를 학습 성취도를 기준으로 비교하라.", "split": "train"}
+{"id": "l3x_0080", "source": "l3", "task": "비교", "level": "L3", "input": "두 가지 유명한 요리책의 레시피 구성과 사용자 평점을 맛과 난이도를 기준으로 비교해 줘.", "split": "train"}
+{"id": "l3x_0081", "source": "l3", "task": "비교", "level": "L3", "input": "2023년 인기 있는 두 가지 여행지를 시설과 안전 기준으로 비교해 봐.", "split": "train"}
+{"id": "l3x_0082", "source": "l3", "task": "비교", "level": "L3", "input": "공공기관과 민간기업의 고객 서비스 차이를 고객 만족도와 대기 시간을 기준으로 비교해 봐.", "split": "train"}
+{"id": "l3x_0083", "source": "l3", "task": "비교", "level": "L3", "input": "행복지수와 GDP 수치를 주요 국가별로 비교하여 상관관계를 분석해 주세요.", "split": "train"}
+{"id": "l3x_0084", "source": "l3", "task": "비교", "level": "L3", "input": "인플루언서 마케팅과 전통 광고의 효과를 도달률과 소비자 신뢰도 기준으로 비교해 봐.", "split": "train"}
+{"id": "l3x_0085", "source": "l3", "task": "비교", "level": "L3", "input": "홈쿠킹과 외식의 비용 및 시간 소요를 사례를 들어 비교해 줘.", "split": "train"}
+{"id": "l3x_0086", "source": "l3", "task": "비교", "level": "L3", "input": "자바스크립트 프레임워크 두 개의 성능과 기능을 프로젝트 요구 사항을 기준으로 비교해 줘.", "split": "train"}
+{"id": "l3x_0087", "source": "l3", "task": "비교", "level": "L3", "input": "고효율 LED 조명과 전통 조명의 에너지 사용량과 수명을 비교해서 설명해 주세요.", "split": "train"}
+{"id": "l3x_0088", "source": "l3", "task": "추천", "level": "L3", "input": "안드로이드 앱 개발을 시작하려고 하는데, 초보자를 위한 최고의 온라인 강의 몇 개 추천해줄래?", "split": "train"}
+{"id": "l3x_0089", "source": "l3", "task": "추천", "level": "L3", "input": "비즈니스 영어 회화를 빠르게 익히기 좋은 팟캐스트나 유튜브 채널 좀 추천해 주세요.", "split": "train"}
+{"id": "l3x_0090", "source": "l3", "task": "추천", "level": "L3", "input": "다음 주에 뉴욕으로 출장 가는데, 출장 중에 들를 만한 비즈니스 관련 핫플레이스 추천해줘.", "split": "train"}
+{"id": "l3x_0091", "source": "l3", "task": "추천", "level": "L3", "input": "한국 주식시장에 대한 최신 트렌드 분석 보고서를 어디서 구할 수 있을까요?", "split": "train"}
+{"id": "l3x_0092", "source": "l3", "task": "추천", "level": "L3", "input": "다음 달에 발표할 학술 논문 주제에 대한 최근 연구 동향을 어떻게 파악하면 좋을까요?", "split": "train"}
+{"id": "l3x_0093", "source": "l3", "task": "추천", "level": "L3", "input": "스타트업 창업을 준비 중인데, 사업 계획서를 작성하는 데 도움이 될 만한 자료 추천해줄 수 있어?", "split": "train"}
+{"id": "l3x_0094", "source": "l3", "task": "추천", "level": "L3", "input": "아이들에게 코딩을 가르치려고 해. 초등학생을 위한 재미있는 코딩 교육 앱 몇 개만 추천해줘.", "split": "train"}
+{"id": "l3x_0095", "source": "l3", "task": "추천", "level": "L3", "input": "현재 한국에서 가장 인기 있는 블루칩 주식 세 종목에 대해 알려줄 수 있어?", "split": "train"}
+{"id": "l3x_0096", "source": "l3", "task": "추천", "level": "L3", "input": "하와이로 가족 여행 가는데, 아이들이 좋아할 만한 액티비티나 장소 추천 부탁드려요.", "split": "train"}
+{"id": "l3x_0097", "source": "l3", "task": "추천", "level": "L3", "input": "중국 음식 초보자인데, 시작하기 쉬운 레시피 몇 가지 추천해 줄래?", "split": "train"}
+{"id": "l3x_0098", "source": "l3", "task": "추천", "level": "L3", "input": "직업 전환을 고려 중인데, IT 분야로 진출하기 위한 필수 자격증이나 스킬 좀 추천해줄래?", "split": "train"}
+{"id": "l3x_0099", "source": "l3", "task": "추천", "level": "L3", "input": "법률 자문 서비스를 온라인으로 받을 수 있는 신뢰할 만한 플랫폼이 있나요?", "split": "train"}
+{"id": "l3x_0100", "source": "l3", "task": "추천", "level": "L3", "input": "작년 한 해 동안의 한국 경제 성장률 관련 보고서를 어디서 찾을 수 있을까요?", "split": "train"}
+{"id": "l3x_0101", "source": "l3", "task": "추천", "level": "L3", "input": "스트레스를 줄이는 데 도움이 되는 요가 비디오나 명상 앱을 추천해 줄 수 있어?", "split": "train"}
+{"id": "l3x_0102", "source": "l3", "task": "추천", "level": "L3", "input": "아동 발달 단계에 따른 효과적인 양육 전략에 대한 책이나 기사 추천 부탁드립니다.", "split": "train"}
+{"id": "l3x_0103", "source": "l3", "task": "추천", "level": "L3", "input": "다음 달에 있을 마케팅 캠페인을 위해 참고할 만한 성공 사례가 있는 보고서 추천 좀.", "split": "train"}
+{"id": "l3x_0104", "source": "l3", "task": "추천", "level": "L3", "input": "신경 과학에 관련한 학술 서적 중에서 최신 연구 내용을 담고 있는 책 몇 권 추천해줘.", "split": "train"}
+{"id": "l3x_0105", "source": "l3", "task": "추천", "level": "L3", "input": "자연 친화적인 생활을 위한 에코 제품 추천 리스트가 있을까요?", "split": "train"}
+{"id": "l3x_0106", "source": "l3", "task": "추천", "level": "L3", "input": "게임 개발에 관심이 많은데, 초보자를 위한 유니티 강좌 중 추천할 만한 것 있어?", "split": "train"}
+{"id": "l3x_0107", "source": "l3", "task": "추천", "level": "L3", "input": "혁신적인 교육 방법론을 다루는 학술지나 논문 추천 좀 해주실 수 있나요?", "split": "train"}
+{"id": "l3x_0108", "source": "l3", "task": "추천", "level": "L3", "input": "프리랜서 웹디자이너로서 포트폴리오를 효과적으로 만드는 방법을 알려줄 수 있어?", "split": "train"}
+{"id": "l3x_0109", "source": "l3", "task": "추천", "level": "L3", "input": "헬스장에서 효과적으로 운동 루틴을 구성할 수 있는 팁이나 앱 추천해 줘.", "split": "train"}

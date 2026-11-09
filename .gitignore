@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 학습 결과(어댑터)와 외부 벤치마크 코드는 용량이 커서 제외
+prompt-optimizer-v*/lora_adapter/
+prompt-optimizer-v*/checkpoints/
+benchmarks/KoMT-Bench/
+
+# 위의 build/ 규칙은 파이썬 패키징용. v3, v4 데이터 중간 결과 폴더는 올린다
+!prompt-optimizer-v*/data/build/
